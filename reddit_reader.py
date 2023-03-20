@@ -46,7 +46,7 @@ class RedditAPI:
         time_start = int(time.time())
         while not posts and int(time.time()) < time_start + timeout:
             try:
-                posts = list(subreddit.top(time_filter='all', limit=200))
+                posts = list(subreddit.top(time_filter='all', limit=100))
             except prawcore.exceptions.ServerError as e:
                 #wait for 30 seconds since sending more requests to overloaded server might not be helping
                 last_exception = e
@@ -56,7 +56,7 @@ class RedditAPI:
             raise last_exception
 
         #posts = list(subreddit.top(time_filter='all', limit=10000))
-        for i in range(200):
+        for i in range(100):
             if len(posts) >= i+1:
                 filtered_thread = posts[i]
                 if filtered_thread.link_flair_text == "Gain":
