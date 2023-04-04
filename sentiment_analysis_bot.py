@@ -46,12 +46,13 @@ def main():
     print('Accuracy based on the given dataset: {:.2f}%'.format(accuracy * 100))
 
     # Classify new data
-    title = 'GME to the moon!'
+    title = 'Yo dipshits! Sell GME. It sucks!'
     gain_or_loss = 'gain'
     title_processed = preprocess_text(title)
     features = extract_features(title_processed, gain_or_loss)
     sentiment = classifier.classify(features)
     print(sentiment)
+    classifier.show_most_informative_features()
 
 if __name__ == "__main__":
     main()
