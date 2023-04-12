@@ -2,6 +2,7 @@ from reddit_reader import RedditAPI
 from thread import Thread
 import json
 
+#currently unused, because dataset sucked
 def download_top_10000_posts_from_wallstreetbets():
     reddit_reader = RedditAPI()
     raw_dataset = reddit_reader.download_top_posts_of_all_time()

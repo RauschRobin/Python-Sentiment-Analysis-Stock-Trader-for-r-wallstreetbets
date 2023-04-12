@@ -51,7 +51,7 @@ class SentimentAnalysisBot:
         return classifier, test_set
 
     def test_classifier(self, classifier, test_set):
-        # Test the classifier
+        # Test the classifier based on the remaining 30% of the dataset
         accuracy = nltk.classify.accuracy(classifier, test_set)
         print('Accuracy based on the given dataset: {:.2f}%'.format(accuracy * 100))
 
@@ -61,16 +61,22 @@ class SentimentAnalysisBot:
         features = self.extract_features(title_processed, gain_or_loss)
         sentiment = self.classifier.classify(features)
         print(sentiment)
-        self.classifier.show_most_informative_features()
+        #Why and how does the bot guess the sentiment in the way it did? --> Show most important words
+        #self.classifier.show_most_informative_features()
 
     def run(self, title, gain_or_loss):
         #Reloads and test the sentiment bot and then calls classify_sentiment with the given post
+        # Retrain and test can be removed, i think?
         self.classifier, test_set = self.train_classifier()
         self.test_classifier(self.classifier, test_set)
         self.classify_sentiment(title, gain_or_loss)
 
 
-""" _____________________ EXAMPLE USAGE: ____________________________
+"""
+______________________ PACKAGES TO INSTALL ____________________________
+pip install nltk
+
+ _____________________ EXAMPLE USAGE: ____________________________
 def main():
     title = 'Yo dipshits! Sell GME. It sucks!'
     gain_or_loss = 'gain'
