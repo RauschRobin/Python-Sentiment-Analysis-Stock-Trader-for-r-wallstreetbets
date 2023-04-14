@@ -1,3 +1,5 @@
 reddit_api_access_data:
   client_id: 8FLiiST3e2FoD-iKhoQKAw
   client_secret: agWaeCM9Rdc1ziqQUbitJVeyDB0zZg
+stock_api_access_data:
+  api_key: aa877610dd604ef3b9dfff9d102a1f50

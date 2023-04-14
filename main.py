@@ -14,5 +14,6 @@ def main():
             # Figure out what stock is talked about and if we can buy it
             # Also simulate the stock and figure out it's chart
 
+
 if __name__ == "__main__":
     main()
