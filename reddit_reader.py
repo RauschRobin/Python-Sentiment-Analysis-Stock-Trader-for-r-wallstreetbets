@@ -1,9 +1,6 @@
 from thread import Thread
 import yaml
 import praw 
-import time
-from time import sleep
-import prawcore
 
 class RedditAPI:
     # Set up the Reddit API client
@@ -35,36 +32,3 @@ class RedditAPI:
         else:
             return None
         
-    # Retrieve top 1000 posts of all time
-    def download_top_posts_of_all_time(self):
-        subreddit = self.reddit.subreddit('wallstreetbets')
-        list_of_all_posts = []
-
-        posts = None
-        last_exception = None
-        timeout = 1500 #seconds = 25 minutes
-        time_start = int(time.time())
-        while not posts and int(time.time()) < time_start + timeout:
-            try:
-                posts = list(subreddit.top(time_filter='all', limit=100))
-            except prawcore.exceptions.ServerError as e:
-                #wait for 30 seconds since sending more requests to overloaded server might not be helping
-                last_exception = e
-                print("calming the server down...")
-                time.sleep(30)
-        if not posts:
-            raise last_exception
-
-        #posts = list(subreddit.top(time_filter='all', limit=10000))
-        for i in range(100):
-            if len(posts) >= i+1:
-                filtered_thread = posts[i]
-                if filtered_thread.link_flair_text == "Gain":
-                    list_of_all_posts.append(Thread(filtered_thread.title, "gain"))
-                elif filtered_thread.link_flair_text == "Loss":
-                    list_of_all_posts.append(Thread(filtered_thread.title, "loss"))
-                else:
-                    list_of_all_posts.append(Thread(filtered_thread.title, "other"))
-            else:
-                continue
-        return list_of_all_posts
