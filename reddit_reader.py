@@ -22,13 +22,13 @@ class RedditAPI:
     # Retrieve a thread from r/wallstreetbets with the "Gain/Loss","day","top" filters + index(top to bottom)
     def get_posts_of_day(self, index):
         subreddit = self.reddit.subreddit('wallstreetbets')
-        posts = list(subreddit.search('flair:"Gain" OR flair:"Loss"', time_filter='day', sort='top', limit=index+1))
+        posts = list(subreddit.search('flair:"YOLO" OR flair:"Chart"', time_filter='day', sort='top', limit=index+1))
         if len(posts) >= index+1:
             filtered_thread = posts[index]
-            if filtered_thread.link_flair_text == "Gain":
-                return Thread(filtered_thread.title, "gain")
-            elif filtered_thread.link_flair_text == "Loss":
-                return Thread(filtered_thread.title, "loss")
+            if filtered_thread.link_flair_text == "YOLO":
+                return Thread(filtered_thread.title, "yolo")
+            elif filtered_thread.link_flair_text == "Chart":
+                return Thread(filtered_thread.title, "chart")
         else:
             return None
         
