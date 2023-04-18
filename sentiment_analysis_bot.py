@@ -5,7 +5,6 @@ from nltk.tokenize import word_tokenize
 
 class SentimentAnalysisBot:
     def __init__(self):
-        nltk.download("punkt")
         self.data_file = "sentiment_analysis_bot_dataset.json"
         self.dataset = self.load_dataset()
         self.featuresets = self.extract_featuresets()
