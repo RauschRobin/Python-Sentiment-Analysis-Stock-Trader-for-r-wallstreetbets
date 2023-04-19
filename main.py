@@ -16,7 +16,7 @@ def main():
             counter = 1
             reddit_handler = RedditAPI()
             while (True):
-                thread: Thread = reddit_handler.get_posts_of_day(counter)  # GEHT NICHT?!?!
+                thread: Thread = reddit_handler.get_posts_of_day(counter)
                 # Robin: 
                 # Initialize Sentiment Anaylsis Bot
                 sentiment_analysis_bot = SentimentAnalysisBot()
@@ -25,12 +25,13 @@ def main():
 
                 # Ozan:
                 # Figure out what stock is talked about and if we can buy it
-                stocks_to_buy: [] = StockHandler.get_stock_from_title("AMZN")
+
+                stocks_to_buy: [] = StockHandler().get_stock_from_title("AMZN is so fucking good im wet")
                 if sentiment_about_stock == "positive" and bool(stocks_to_buy):
                     print("Stock is good")
                     # Also simulate the stock and figure out it's chart
-                    database = Database()
-                    database.get_stock_symbols()
+                    Database().init_bought_stocks()
+                    break
                 else:
                     # Thread ist scheiße wenn kein aktie herausgefunden wird oder kein gutes sentiment ist
                     # if(THREAD WAR SCHEISSE):

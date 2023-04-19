@@ -56,7 +56,7 @@ class StockHandler:
                 stocks.append(entry.upper())
         return stocks
 
-    def get_price_for_stocks(self, title: str):
+    def get_price_for_stocks(self, stocks: []):
         """
         get the price for all the stocks in the title
 
@@ -68,10 +68,9 @@ class StockHandler:
         :return: A List containing all prices and symbols in the title in json format
 
         :test:
-        * test 1: title has no stock names
+        * test 1: stock names are not right
         * test 2: api calls exceeded
         """
-        stocks = self.get_stock_from_title(title)
         prices = []
         for stock in stocks:
             prices.append(self.__get_price_for_stock(stock))
