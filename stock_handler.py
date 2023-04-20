@@ -8,18 +8,21 @@ import json
 
 from twelvedata.exceptions import TwelveDataError
 
+from database import Database
 
-class stock_handler:
+
+class StockHandler:
     stock_list = []
     td: TDClient
+    database: Database
 
     def __init__(self):
         with open('resource.yaml', 'r') as f:
             data = yaml.safe_load(f)
-
         # Retrieve twelvedata stock api access data
         stock_api_data = data['stock_api_access_data']
         self.td = TDClient(apikey=stock_api_data["api_key"])
+        self.database = Database()
 
     def add_stock(self, stockpick):
         self.stock_list.append(stockpick)
@@ -27,8 +30,7 @@ class stock_handler:
     def get_stock_symbols(self):
         stock_data = list(self.td.get_stocks_list().as_json())
         stock_data = list(map(lambda data: data["symbol"], filter(lambda data: data["currency"] == "USD", stock_data)))
-        with open("stock_data.json", "w") as write_file:
-            json.dump(stock_data, write_file, indent=4)
+        self.database.init_stock_data(stock_data)
 
     def get_stock_from_title(self, title: str) -> []:
         """
@@ -43,19 +45,18 @@ class stock_handler:
         :return: the symbol that has been found in the string || if not found return empty string
 
         :test:
-        * test 1:
-        * test 2:
+        * test 1: The title contains words that aren't meant to be Stocks but are seen as such
+        * test 2: The title contains stocks that can't be recognized, because the stock has been written wrong
         """
-        stock_json = open('stock_data.json', "r")
-        stock_data = json.loads(stock_json.read())
-        title = title.split(" ")
+        stock_data = self.database.get_stock_symbols()
+        title = title.split()
         stocks = []
         for entry in title:
             if entry.upper() in stock_data:
                 stocks.append(entry.upper())
         return stocks
 
-    def get_price_for_stocks(self, title: str):
+    def get_price_for_stocks(self, stocks: []):
         """
         get the price for all the stocks in the title
 
@@ -67,10 +68,9 @@ class stock_handler:
         :return: A List containing all prices and symbols in the title in json format
 
         :test:
-        * test 1: title has no stock names
+        * test 1: stock names are not right
         * test 2: api calls exceeded
         """
-        stocks = self.get_stock_from_title(title)
         prices = []
         for stock in stocks:
             prices.append(self.__get_price_for_stock(stock))

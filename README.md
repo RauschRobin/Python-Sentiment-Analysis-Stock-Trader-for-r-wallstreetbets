@@ -6,6 +6,7 @@ This is our python project from the Wahlfach Python aus Semester 4.
 pip install praw==7.7.0
 pip install twelvedata==1.2.11
 pip install nltk==3.8.1
+pip install pyyaml==6.0
 ```
 
 ## What does this nearly godlike code do?
@@ -16,3 +17,5 @@ Get rich fast!
 
 ## Why did you code in python?
 Because it's simple and we were forced by our Wahlfach Dozent! Please help!
+
+Ein Call wird bei steigenden Kursen seines Basiswertes wertvoller, ein Put bei fallenden Kursen
