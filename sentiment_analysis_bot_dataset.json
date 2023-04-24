@@ -798,5 +798,105 @@
     {
         "title": "Just made a killing on SPCE calls! \ud83e\udd11\ud83d\ude80\ud83c\udf15",
         "sentiment": "positive"
-    }
+    },
+    {
+        "title": "I just yoloed all my savings into NIO stock. This thing is going to take off!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm holding on to my PLTR shares for dear life. This stock is going to be huge!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I bought some AAPL calls and I'm up 200% already! This is easy money.",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm betting big on SNDL. It's the next big thing!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I just sold my GME shares for a small profit. I'm glad I got out when I did.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm holding on to my BB shares even though they're down. This is a long-term play!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I just bought some AMC shares. I think it's going to be a good day trade!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost a ton of money on PLUG. I'm done with this stock for good.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I just made a fortune on TSLA calls! This stock is unstoppable.",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm staying away from XPEV. This stock is a dumpster fire.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I really believed in XPEV, but the stock keeps falling. Taking a big loss here",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm all in on TSLA, this stock is going to the moon! #YOLO",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some PLTR shares, this stock is undervalued and has huge potential. #DiamondHands",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm betting big on GME, this stock is about to explode. #HODL",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some AMC calls, this stock is going to make me rich. #ToTheMoon",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bullish on AAPL, this stock is a long-term winner. #BuyAndHold",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just bought some TSLA shares. I'm expecting a big gain in the coming weeks!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my AAPL shares. I regret it now. It's on the rise again!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some BB shares. I have a good feeling about this one!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost a lot of money on SNDL. I'm staying away from it from now on.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just sold my GME shares for a big profit. I think it's going down soon.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "NOK to the moon \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I've been holding AMC for weeks and it's just bleeding money",
+        "sentiment": "negative"
+    },
+    {
+        "title": "TSLA is overvalued and due for a big correction",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just made a killing on SPCE calls! \ud83e\udd11\ud83d\ude80\ud83c\udf15",
+        "sentiment": "positive"
+    }    
 ]
