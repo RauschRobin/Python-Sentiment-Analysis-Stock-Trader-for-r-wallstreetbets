@@ -1,10 +1,17 @@
+"""
+author:
+datum:
+version:
+license:
+Modulkurzbeschreibung:
+"""
+
 import time
 from datetime import datetime
 
 from twelvedata import TDClient
 
 import yaml
-import json
 
 from twelvedata.exceptions import TwelveDataError
 
@@ -25,6 +32,13 @@ class StockHandler:
         self.database = Database()
 
     def add_stock(self, stockpick):
+        """
+        Kurzbeschreibung:
+        Parameterbeschreibnug
+        Mindestens 2 Tests
+        :param stockpick:
+        :return:
+        """
         self.stock_list.append(stockpick)
 
     def get_stock_symbols(self):
@@ -73,10 +87,10 @@ class StockHandler:
         """
         prices = []
         for stock in stocks:
-            prices.append(self.__get_price_for_stock(stock))
+            prices.append(self.__get_price_for_stock(stock,0))
         return prices
 
-    def __get_price_for_stock(self, stock: str):
+    def __get_price_for_stock(self, stock: str, depth: int):
         """
         Get the price for a singular stock("stock is assumed to be correct")
 
@@ -92,11 +106,15 @@ class StockHandler:
         * test 1: api calls exceeded
         * test 2: stock name is wrong --> waisted api call
         """
+        if depth >= 2:
+            return None
         try:
+            print(stock)
             rp = self.td.price(
                 symbol=stock
             )
             return {"symbol": stock, "price": rp.as_json()["price"]}
         except TwelveDataError:
+            print("sleepy")
             time.sleep(60 - datetime.utcnow().second)
-            self.__get_price_for_stock(stock)
+            self.__get_price_for_stock(stock, depth + 1)

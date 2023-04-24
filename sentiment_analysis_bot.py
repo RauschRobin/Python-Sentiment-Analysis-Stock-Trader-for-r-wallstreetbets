@@ -53,12 +53,13 @@ class SentimentAnalysisBot:
     def test_classifier(self, classifier, test_set):
         # Test the classifier based on the remaining 30% of the dataset
         accuracy = nltk.classify.accuracy(classifier, test_set)
-        print('Accuracy based on the given dataset: {:.2f}%'.format(accuracy * 100))
+        #print('Accuracy based on the given dataset: {:.2f}%'.format(accuracy * 100))
 
     def classify_sentiment(self, title):
         # Preprocesses and splits the given post, then rates the sentiment
         title_processed = self.preprocess_text(title)
         features = self.extract_features(title_processed)
+        print(self.classifier.prob_classify(features).prob(self.classifier.prob_classify(features).max()))
         sentiment = self.classifier.classify(features)
         return sentiment
         # Why and how does the bot guess the sentiment in the way it did? --> Show most important words with this:

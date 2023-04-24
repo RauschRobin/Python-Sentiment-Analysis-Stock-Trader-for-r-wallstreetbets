@@ -18,6 +18,8 @@ class StockBuyer:
     def buy_stocks(self, stocks: []):
         prices = self.stock_handler.get_price_for_stocks(stocks)
         for data in prices:
+            if data is None:
+                continue
             price = float(data.get("price"))
             amount = 0
             if self.money_available > 1000:
@@ -31,6 +33,8 @@ class StockBuyer:
     def sell_stocks(self, stocks: []):
         prices = self.stock_handler.get_price_for_stocks(stocks)
         for data in prices:
+            if data is None:
+                continue
             stock = data.get("symbol")
             price = float(data.get("price"))
             if self.database.do_we_own_stock(stock):
