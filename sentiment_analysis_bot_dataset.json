@@ -1,200 +1,802 @@
-{"title": "Buy GME! Free Money!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sell Google! Worst stonk ever", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Free tendies on AWS", "gain_or_loss": "other", "sentiment": "positive"}
-{"title": "fucking scam. Fuck google", "gain_or_loss": "other", "sentiment": "negative"}
-{"title": "Yolo'd all my money on GME this morning!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Haha theses idiots from META suck!", "gain_or_loss": "other", "sentiment": "negative"}
-{"title": "Short Google now! Its a money glitch!", "gain_or_loss": "other", "sentiment": "negative"}
-{"title": "Short tesla!", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Fucking leverage GME now! To the moon!", "gain_or_loss": "other", "sentiment": "positive"}
-{"title": "OZN is a great stock", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "What are the people at IGN doing?", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "I sold all my BTC", "gain_or_loss": "other", "sentiment": "negative"}
-{"title": "I love TLA", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "BTC went to the moon last week and now drops rapidly", "gain_or_loss": "other", "sentiment": "negative"}
-{"title": "I lost all my money last week and earned it back this week by buying YLW", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "What dont you get about HDL? Worst stock ever!", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "HODL GME!", "gain_or_loss": "other", "sentiment": "positive"}
-{"title": "APES STRONG TOGETHER! SHORT ZDL", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "APES STRONG TOGETHER! HODL ZDL", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "GME to the moon! Buy now before it's too late!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "AMC is the next GME! Buy and hold!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "TSLA is overvalued! Sell now!", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "PLTR is a great buy! Don't miss out on this opportunity!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I lost all my money on SNDL! Don't make the same mistake!", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "I made a fortune on NOK! Buy now while it's still cheap!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Shorting the market is the only way to win!", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "BB is the next GME! Don't miss out on the action!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I lost everything on options trading! Stay away from them!", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "The market is rigged! Fight back by investing in crypto!", "gain_or_loss": "other", "sentiment": "positive"}
-{"title": "I'm holding onto my GME shares forever! Diamond hands!", "gain_or_loss": "other", "sentiment": "positive"}
-{"title": "Selling everything and putting it all into DOGE!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I lost everything on penny stocks! Don't make the same mistake!", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "I just made a killing on PLTR! Thanks WSB!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Buying GME was the best decision of my life!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I lost a lot on WKHS! Beware of pump and dumps!", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "NIO is the future! Don't miss out on the revolution!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "The media is trying to manipulate us! Stay strong and hold GME!", "gain_or_loss": "other", "sentiment": "positive"}
-{"title": "I lost everything on options trading! Never again!", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Investing in crypto is the only way to beat the system!", "gain_or_loss": "other", "sentiment": "positive"}
-{"title": "Just bought more AMC! Going all in for the squeeze", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Fuck Citadel and Robinhood! Holding GME to the moon", "gain_or_loss": "other", "sentiment": "positive"}
-{"title": "BB is the next big thing, get in before it's too late!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I sold all my Doge and went all in on ETH. Am I crazy?", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "What's the deal with TSLA? Why won't it go up?", "gain_or_loss": "other", "sentiment": "negative"}
-{"title": "Yolo'd my life savings on SNDL. Is this the next GME?", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Why is NOK tanking? I thought it was a good play", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Just got in on PLTR, hoping for a big gain tomorrow", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Bought a bunch of SPY puts, hoping for a market crash", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "I think the market is rigged. Time to go all in on BTC", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Bought some GME on the dip. Diamond hands will pay off", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm bullish on PLTR long term. Just bought more shares", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "TSLA is a bubble waiting to burst. Shorting it all the way down", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "SNAP is a dead company walking. Shorting it all the way to the bank", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "I'm a big believer in ARKK. Just loaded up on shares", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "AAPL is overvalued. Time to take profits and get out", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some TDOC for the long haul. Telemedicine is the future", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "NIO is the next big thing in EV. Just bought a bunch of shares", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm bearish on airlines. Bought some JETS puts to profit off the downturn", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Just sold all my BTC for ETH. Hoping it's the right move", "gain_or_loss": "other", "sentiment": "positive"}
-{"title": "Bought some RIOT as a Bitcoin proxy. Hoping for a big gain", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm bullish on AMD. Just bought some calls for next month", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm feeling bearish on the market. Just sold all my tech stocks", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some FUBO on the dip. Hoping for a rebound soon", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "Just got into Dogecoin. Let's see if this meme can make me rich", "gain_or_loss": "other", "sentiment": "positive"}
-{"title": "I'm shorting NFTs. Can't believe people are paying so much for digital art", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some BYND on the news of their partnership with McDonald's", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm skeptical of the recent GameStop hype. Sold my shares for a profit", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Invested in some renewable energy stocks. Hoping for a sustainable future", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold my Bitcoin for cash. Don't trust the crypto market right now", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some MSTR as a way to indirectly invest in Bitcoin", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I just sold my GME shares. The hype is over and it's time to move on", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "I'm bullish on Amazon. Just bought some shares ahead of their earnings report", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold all my XRP after the SEC filed a lawsuit against Ripple", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Just bought some Apple stock. Can't go wrong with this tech giant", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm betting big on the cannabis industry. Just invested in CGC and APHA", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I just lost a ton of money on options trading. Maybe it's time to take a break", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Sold all my airline stocks. The industry is too volatile right now", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some VOO as a way to diversify my portfolio", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm skeptical of cryptocurrencies. Just sticking with traditional investments", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Just invested in some cybersecurity stocks. Can't ignore the growing importance of data privacy", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "YOLO'd my life savings on AMC. The meme stocks are the way to go!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Bought some GME calls for next week. Let's go to the moon!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm all in on TSLA. This company is going to be huge!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Bought some PLTR shares. Let's see some big gains!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Shorted SPY, let's hope the market crashes soon", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some NOK shares. Let's ride this one to the moon!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Just sold all my AAPL shares. This company is overrated", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "YOLO'd my rent money on BB. This is the one", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm bullish on AMD. Bought some shares and holding for the long term", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Bought some BBBY calls, let's see some big gains this week", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold all my NIO shares. EV is a bubble waiting to burst", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some SPCE shares. Let's go to the moon!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Just bought some PLTR puts, let's make some money off the downturn", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some SNDL shares. Hoping for a big gain this month", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm bullish on TSM. Bought some shares and holding for the long term", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Bought some GME shares, let's see what happens with this one", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold all my AMC shares. It's time to move on to something else", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Just bought some PLTR calls. Hoping for a big gain this week", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm a big believer in BABA. Bought some shares and holding for the long term", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Bought some TSLA puts, let's see some big gains this month", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "YOLO'd my life savings on NOK. Now I'm broke and my wife left me", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some AMC shares at the peak. Now I'm down 50%", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Invested in Hertz just before it went bankrupt. Lost my shirt", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Tried to catch a falling knife with TSLA. Lost big", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some GME puts thinking it was overvalued. Lost my entire investment", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Shorted PLTR thinking it was overhyped. Got squeezed hard", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some Dogecoin as a joke. Not laughing anymore", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Took a huge position in BLNK thinking EV charging was the future. Now I'm charging my phone at Starbucks", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some CCL shares thinking cruise lines were going to rebound. I'm still waiting...", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Thought NIO was the next Tesla. My portfolio disagrees", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some LK coffee thinking it was the Chinese Starbucks. Now I can't afford a cup of coffee", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Invested in Nikola thinking they had a real product. Turns out it was just hot air", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some SHLL calls thinking they were the next SPAC to rocket. They fizzled out instead", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Sold some XOM shares at a loss. Maybe oil isn't coming back after all", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some BB calls thinking they had a chance against the Reddit army. They didn't", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Thought I was getting a discount buying some GE shares. Turns out they were on sale for a reason", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some IQ calls thinking it was the Chinese Netflix. Now I'm watching reruns of Friends", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Took a chance on some Kodak shares. The only thing that developed was my loss", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "YOLO'd my savings into TSLA calls, now I'm living on the edge", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some PLTR on the dip. I have faith in this company", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm all in on NOK. It's my retirement plan", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Sold my GME shares and moved on to AMC. It's going to the moon next", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Bought some SPY puts. The market is due for a correction", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Lost my life savings on SNDL. I should have listened to the haters", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Just bought some PLTR shares. I'm a believer in this company", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold all my AAPL shares. It's overvalued and I need to move on", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "I'm going all in on TSLA. This is the future of transportation", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "Bought some NIO shares. I'm holding on to them for dear life", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold all my PLTR shares. I made a quick profit and now it's time to move on", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "I'm bullish on GME. This stock is going to the moon", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "Just bought some TSM shares. I have a good feeling about this one", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold all my SNDL shares. It's time to cut my losses and move on", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some AAPL shares. It's a solid company and a safe investment", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Lost a lot of money on AMC. YOLO'd too hard", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Just bought some GME shares. It's a risky move, but I have diamond hands", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "Sold all my PLTR shares. It's not performing as well as I hoped", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some NOK shares. This stock is severely undervalued", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold all my TSLA shares. It's too volatile for me", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "I'm all in on TSLA. This is going to be the biggest gain of my life", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Bought some NIO shares. Hoping for a bounce back soon", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "YOLO'd my entire savings on GME. Diamond hands, let's go!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Bought some PLTR shares before earnings. Hoping for a big jump", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold all my SNDL shares. Taking a loss but moving on to something better", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some AMC calls for the squeeze. Let's see if this pays off", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Just loaded up on some CRSR shares. This one is going to the moon", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Bought some BB shares as a value play. Let's hope it turns around", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Sold all my PLUG shares. This one is just not moving", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some TSM calls for earnings. This one is going to be big", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold all my AAPL shares. It's time to move on to something more exciting", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some GME puts. This one is going to crash hard", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some NOK shares. This one is a sleeper hit", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold all my BBBY shares. This one is a sinking ship", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some JNJ shares for the long term. This one is a solid investment", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold all my F shares. This one is just not moving", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some TDOC shares before earnings. This one is going to pop", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold all my RIOT shares. Time to take profits and move on", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some RKT shares as a value play. Let's hope it turns around", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Sold all my GME shares. Diamond hands only get you so far", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some $AMC calls today. YOLOing my life savings, but it'll be worth it if we squeeze!", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "Just bought some $BB calls. BlackBerry is going to the moon!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Sold some of my $GME shares to buy more $AMC. It's time for the apes to stick together!", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "Bought some $CLOV shares today. Let's see if the short sellers can handle us!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Just loaded up on $NOK shares. This is going to be the next big short squeeze!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "$AAPL is undervalued right now. I'm buying as much as I can before it explodes!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Bought some $TSLA puts today. Elon is overrated and this stock is going to crash!", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Just sold all my $FB shares. Time to put my money into something with real potential", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some $PLTR shares today. This is a long-term hold for me!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Just sold all my $DOGE. It was fun while it lasted, but now it's time to get serious", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some $BBBY shares today. The short sellers are underestimating this one!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Just sold all my $NIO shares. I think this stock has peaked and it's time to move on", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some $BABA calls today. This stock is undervalued and it's going to explode soon!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Just sold all my $F shares. It's time to focus on stocks that have real growth potential", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some $UWMC shares today. This stock is undervalued and has huge potential for growth!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Just sold all my $GM shares. This stock is too stagnant for my taste", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some $AMZN calls today. Jeff Bezos may be gone, but this company is still a powerhouse!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "Just sold all my $AAPL shares. This company is overhyped and overvalued", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought a ton of NOK calls, but it's crashing hard. Time to cut my losses", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "I thought BBBY was going to bounce back, but I was wrong. Sold at a loss", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some CLOV calls, but the price keeps dropping. Taking a big loss here", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "I went all in on RKT calls and got burned. Time to accept the loss and move on", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Held onto MARA too long and took a huge loss. Should have cut my losses earlier", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Thought I was being smart buying PLTR puts. Instead, I lost a lot of money", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "I got too greedy with my TSLA calls and it cost me big time. Huge loss for me", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Went in heavy on VXX calls, but the market didn't crash. Now taking a big loss", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Bought some WKHS calls, but the company is struggling. Taking a big loss on this one", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "I really believed in XPEV, but the stock keeps falling. Taking a big loss here", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "I'm all in on TSLA, this stock is going to the moon! #YOLO", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "Bought some PLTR shares, this stock is undervalued and has huge potential. #DiamondHands", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I'm betting big on GME, this stock is about to explode. #HODL", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "Bought some AMC calls, this stock is going to make me rich. #ToTheMoon", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "I'm bullish on AAPL, this stock is a long-term winner. #BuyAndHold", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "Just bought some TSLA shares. I'm expecting a big gain in the coming weeks!", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "Sold all my AAPL shares. I regret it now. It's on the rise again!", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "Bought some BB shares. I have a good feeling about this one!", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I lost a lot of money on SNDL. I'm staying away from it from now on.", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "Just sold my GME shares for a big profit. I think it's going down soon.", "gain_or_loss": "gain", "sentiment": "negative"}
-{"title": "NOK to the moon 🚀🚀🚀", "gain_or_loss": "gain", "sentiment": "positive"}
-{"title": "I've been holding AMC for weeks and it's just bleeding money", "gain_or_loss": "loss", "sentiment": "negative"}
-{"title": "TSLA is overvalued and due for a big correction", "gain_or_loss": "loss", "sentiment": "positive"}
-{"title": "Just made a killing on SPCE calls! 🤑🚀🌕", "gain_or_loss": "gain", "sentiment": "positive"}
+[
+    {
+        "title": "Buy GME! Free Money!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sell Google! Worst stonk ever",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Free tendies on AWS",
+        "sentiment": "positive"
+    },
+    {
+        "title": "fucking scam. Fuck google",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Yolo'd all my money on GME this morning!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Haha theses idiots from META suck!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Short Google now! Its a money glitch!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Short tesla!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Fucking leverage GME now! To the moon!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "OZN is a great stock",
+        "sentiment": "positive"
+    },
+    {
+        "title": "What are the people at IGN doing?",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I sold all my BTC",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I love TLA",
+        "sentiment": "positive"
+    },
+    {
+        "title": "BTC went to the moon last week and now drops rapidly",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I lost all my money last week and earned it back this week by buying YLW",
+        "sentiment": "positive"
+    },
+    {
+        "title": "What dont you get about HDL? Worst stock ever!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "HODL GME!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "APES STRONG TOGETHER! SHORT ZDL",
+        "sentiment": "negative"
+    },
+    {
+        "title": "APES STRONG TOGETHER! HODL ZDL",
+        "sentiment": "positive"
+    },
+    {
+        "title": "GME to the moon! Buy now before it's too late!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "AMC is the next GME! Buy and hold!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "TSLA is overvalued! Sell now!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "PLTR is a great buy! Don't miss out on this opportunity!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost all my money on SNDL! Don't make the same mistake!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I made a fortune on NOK! Buy now while it's still cheap!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Shorting the market is the only way to win!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "BB is the next GME! Don't miss out on the action!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost everything on options trading! Stay away from them!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "The market is rigged! Fight back by investing in crypto!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm holding onto my GME shares forever! Diamond hands!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Selling everything and putting it all into DOGE!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost everything on penny stocks! Don't make the same mistake!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I just made a killing on PLTR! Thanks WSB!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Buying GME was the best decision of my life!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost a lot on WKHS! Beware of pump and dumps!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "NIO is the future! Don't miss out on the revolution!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "The media is trying to manipulate us! Stay strong and hold GME!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost everything on options trading! Never again!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Investing in crypto is the only way to beat the system!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just bought more AMC! Going all in for the squeeze",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Fuck Citadel and Robinhood! Holding GME to the moon",
+        "sentiment": "positive"
+    },
+    {
+        "title": "BB is the next big thing, get in before it's too late!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I sold all my Doge and went all in on ETH. Am I crazy?",
+        "sentiment": "positive"
+    },
+    {
+        "title": "What's the deal with TSLA? Why won't it go up?",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Yolo'd my life savings on SNDL. Is this the next GME?",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Why is NOK tanking? I thought it was a good play",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just got in on PLTR, hoping for a big gain tomorrow",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought a bunch of SPY puts, hoping for a market crash",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I think the market is rigged. Time to go all in on BTC",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some GME on the dip. Diamond hands will pay off",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bullish on PLTR long term. Just bought more shares",
+        "sentiment": "positive"
+    },
+    {
+        "title": "TSLA is a bubble waiting to burst. Shorting it all the way down",
+        "sentiment": "negative"
+    },
+    {
+        "title": "SNAP is a dead company walking. Shorting it all the way to the bank",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm a big believer in ARKK. Just loaded up on shares",
+        "sentiment": "positive"
+    },
+    {
+        "title": "AAPL is overvalued. Time to take profits and get out",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some TDOC for the long haul. Telemedicine is the future",
+        "sentiment": "positive"
+    },
+    {
+        "title": "NIO is the next big thing in EV. Just bought a bunch of shares",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bearish on airlines. Bought some JETS puts to profit off the downturn",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just sold all my BTC for ETH. Hoping it's the right move",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some RIOT as a Bitcoin proxy. Hoping for a big gain",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bullish on AMD. Just bought some calls for next month",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm feeling bearish on the market. Just sold all my tech stocks",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some FUBO on the dip. Hoping for a rebound soon",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just got into Dogecoin. Let's see if this meme can make me rich",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm shorting NFTs. Can't believe people are paying so much for digital art",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some BYND on the news of their partnership with McDonald's",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm skeptical of the recent GameStop hype. Sold my shares for a profit",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Invested in some renewable energy stocks. Hoping for a sustainable future",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold my Bitcoin for cash. Don't trust the crypto market right now",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some MSTR as a way to indirectly invest in Bitcoin",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I just sold my GME shares. The hype is over and it's time to move on",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm bullish on Amazon. Just bought some shares ahead of their earnings report",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my XRP after the SEC filed a lawsuit against Ripple",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just bought some Apple stock. Can't go wrong with this tech giant",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm betting big on the cannabis industry. Just invested in CGC and APHA",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I just lost a ton of money on options trading. Maybe it's time to take a break",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Sold all my airline stocks. The industry is too volatile right now",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some VOO as a way to diversify my portfolio",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm skeptical of cryptocurrencies. Just sticking with traditional investments",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just invested in some cybersecurity stocks. Can't ignore the growing importance of data privacy",
+        "sentiment": "positive"
+    },
+    {
+        "title": "YOLO'd my life savings on AMC. The meme stocks are the way to go!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some GME calls for next week. Let's go to the moon!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm all in on TSLA. This company is going to be huge!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some PLTR shares. Let's see some big gains!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Shorted SPY, let's hope the market crashes soon",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some NOK shares. Let's ride this one to the moon!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just sold all my AAPL shares. This company is overrated",
+        "sentiment": "negative"
+    },
+    {
+        "title": "YOLO'd my rent money on BB. This is the one",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bullish on AMD. Bought some shares and holding for the long term",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some BBBY calls, let's see some big gains this week",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my NIO shares. EV is a bubble waiting to burst",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some SPCE shares. Let's go to the moon!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just bought some PLTR puts, let's make some money off the downturn",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some SNDL shares. Hoping for a big gain this month",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bullish on TSM. Bought some shares and holding for the long term",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some GME shares, let's see what happens with this one",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my AMC shares. It's time to move on to something else",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just bought some PLTR calls. Hoping for a big gain this week",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm a big believer in BABA. Bought some shares and holding for the long term",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some TSLA puts, let's see some big gains this month",
+        "sentiment": "negative"
+    },
+    {
+        "title": "YOLO'd my life savings on NOK. Now I'm broke and my wife left me",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some AMC shares at the peak. Now I'm down 50%",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Invested in Hertz just before it went bankrupt. Lost my shirt",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Tried to catch a falling knife with TSLA. Lost big",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some GME puts thinking it was overvalued. Lost my entire investment",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Shorted PLTR thinking it was overhyped. Got squeezed hard",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some Dogecoin as a joke. Not laughing anymore",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Took a huge position in BLNK thinking EV charging was the future. Now I'm charging my phone at Starbucks",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some CCL shares thinking cruise lines were going to rebound. I'm still waiting...",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Thought NIO was the next Tesla. My portfolio disagrees",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some LK coffee thinking it was the Chinese Starbucks. Now I can't afford a cup of coffee",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Invested in Nikola thinking they had a real product. Turns out it was just hot air",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some SHLL calls thinking they were the next SPAC to rocket. They fizzled out instead",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Sold some XOM shares at a loss. Maybe oil isn't coming back after all",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some BB calls thinking they had a chance against the Reddit army. They didn't",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Thought I was getting a discount buying some GE shares. Turns out they were on sale for a reason",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some IQ calls thinking it was the Chinese Netflix. Now I'm watching reruns of Friends",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Took a chance on some Kodak shares. The only thing that developed was my loss",
+        "sentiment": "negative"
+    },
+    {
+        "title": "YOLO'd my savings into TSLA calls, now I'm living on the edge",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some PLTR on the dip. I have faith in this company",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm all in on NOK. It's my retirement plan",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Sold my GME shares and moved on to AMC. It's going to the moon next",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some SPY puts. The market is due for a correction",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Lost my life savings on SNDL. I should have listened to the haters",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just bought some PLTR shares. I'm a believer in this company",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my AAPL shares. It's overvalued and I need to move on",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm going all in on TSLA. This is the future of transportation",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some NIO shares. I'm holding on to them for dear life",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my PLTR shares. I made a quick profit and now it's time to move on",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm bullish on GME. This stock is going to the moon",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just bought some TSM shares. I have a good feeling about this one",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my SNDL shares. It's time to cut my losses and move on",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some AAPL shares. It's a solid company and a safe investment",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Lost a lot of money on AMC. YOLO'd too hard",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just bought some GME shares. It's a risky move, but I have diamond hands",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my PLTR shares. It's not performing as well as I hoped",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some NOK shares. This stock is severely undervalued",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my TSLA shares. It's too volatile for me",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm all in on TSLA. This is going to be the biggest gain of my life",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some NIO shares. Hoping for a bounce back soon",
+        "sentiment": "negative"
+    },
+    {
+        "title": "YOLO'd my entire savings on GME. Diamond hands, let's go!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some PLTR shares before earnings. Hoping for a big jump",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my SNDL shares. Taking a loss but moving on to something better",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some AMC calls for the squeeze. Let's see if this pays off",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just loaded up on some CRSR shares. This one is going to the moon",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some BB shares as a value play. Let's hope it turns around",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Sold all my PLUG shares. This one is just not moving",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some TSM calls for earnings. This one is going to be big",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my AAPL shares. It's time to move on to something more exciting",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some GME puts. This one is going to crash hard",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some NOK shares. This one is a sleeper hit",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my BBBY shares. This one is a sinking ship",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some JNJ shares for the long term. This one is a solid investment",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my F shares. This one is just not moving",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some TDOC shares before earnings. This one is going to pop",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my RIOT shares. Time to take profits and move on",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some RKT shares as a value play. Let's hope it turns around",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Sold all my GME shares. Diamond hands only get you so far",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some $AMC calls today. YOLOing my life savings, but it'll be worth it if we squeeze!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just bought some $BB calls. BlackBerry is going to the moon!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold some of my $GME shares to buy more $AMC. It's time for the apes to stick together!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some $CLOV shares today. Let's see if the short sellers can handle us!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just loaded up on $NOK shares. This is going to be the next big short squeeze!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "$AAPL is undervalued right now. I'm buying as much as I can before it explodes!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some $TSLA puts today. Elon is overrated and this stock is going to crash!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just sold all my $FB shares. Time to put my money into something with real potential",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some $PLTR shares today. This is a long-term hold for me!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just sold all my $DOGE. It was fun while it lasted, but now it's time to get serious",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some $BBBY shares today. The short sellers are underestimating this one!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just sold all my $NIO shares. I think this stock has peaked and it's time to move on",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some $BABA calls today. This stock is undervalued and it's going to explode soon!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just sold all my $F shares. It's time to focus on stocks that have real growth potential",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some $UWMC shares today. This stock is undervalued and has huge potential for growth!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just sold all my $GM shares. This stock is too stagnant for my taste",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some $AMZN calls today. Jeff Bezos may be gone, but this company is still a powerhouse!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just sold all my $AAPL shares. This company is overhyped and overvalued",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought a ton of NOK calls, but it's crashing hard. Time to cut my losses",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I thought BBBY was going to bounce back, but I was wrong. Sold at a loss",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some CLOV calls, but the price keeps dropping. Taking a big loss here",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I went all in on RKT calls and got burned. Time to accept the loss and move on",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Held onto MARA too long and took a huge loss. Should have cut my losses earlier",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Thought I was being smart buying PLTR puts. Instead, I lost a lot of money",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I got too greedy with my TSLA calls and it cost me big time. Huge loss for me",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Went in heavy on VXX calls, but the market didn't crash. Now taking a big loss",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some WKHS calls, but the company is struggling. Taking a big loss on this one",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I really believed in XPEV, but the stock keeps falling. Taking a big loss here",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm all in on TSLA, this stock is going to the moon! #YOLO",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some PLTR shares, this stock is undervalued and has huge potential. #DiamondHands",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm betting big on GME, this stock is about to explode. #HODL",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some AMC calls, this stock is going to make me rich. #ToTheMoon",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bullish on AAPL, this stock is a long-term winner. #BuyAndHold",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just bought some TSLA shares. I'm expecting a big gain in the coming weeks!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my AAPL shares. I regret it now. It's on the rise again!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some BB shares. I have a good feeling about this one!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost a lot of money on SNDL. I'm staying away from it from now on.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just sold my GME shares for a big profit. I think it's going down soon.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "NOK to the moon \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I've been holding AMC for weeks and it's just bleeding money",
+        "sentiment": "negative"
+    },
+    {
+        "title": "TSLA is overvalued and due for a big correction",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just made a killing on SPCE calls! \ud83e\udd11\ud83d\ude80\ud83c\udf15",
+        "sentiment": "positive"
+    }
+]
