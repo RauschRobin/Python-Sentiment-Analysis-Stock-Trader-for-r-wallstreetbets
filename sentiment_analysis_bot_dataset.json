@@ -798,5 +798,625 @@
     {
         "title": "Just made a killing on SPCE calls! \ud83e\udd11\ud83d\ude80\ud83c\udf15",
         "sentiment": "positive"
-    }
+    },
+    {
+        "title": "I just yoloed all my savings into NIO stock. This thing is going to take off!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm holding on to my PLTR shares for dear life. This stock is going to be huge!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I bought some AAPL calls and I'm up 200% already! This is easy money.",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm betting big on SNDL. It's the next big thing!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I just sold my GME shares for a small profit. I'm glad I got out when I did.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm holding on to my BB shares even though they're down. This is a long-term play!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I just bought some AMC shares. I think it's going to be a good day trade!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost a ton of money on PLUG. I'm done with this stock for good.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I just made a fortune on TSLA calls! This stock is unstoppable.",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm staying away from XPEV. This stock is a dumpster fire.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I really believed in XPEV, but the stock keeps falling. Taking a big loss here",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm all in on TSLA, this stock is going to the moon! #YOLO",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some PLTR shares, this stock is undervalued and has huge potential. #DiamondHands",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm betting big on GME, this stock is about to explode. #HODL",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some AMC calls, this stock is going to make me rich. #ToTheMoon",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bullish on AAPL, this stock is a long-term winner. #BuyAndHold",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just bought some TSLA shares. I'm expecting a big gain in the coming weeks!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my AAPL shares. I regret it now. It's on the rise again!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought some BB shares. I have a good feeling about this one!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost a lot of money on SNDL. I'm staying away from it from now on.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just sold my GME shares for a big profit. I think it's going down soon.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "NOK to the moon \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I've been holding AMC for weeks and it's just bleeding money",
+        "sentiment": "negative"
+    },
+    {
+        "title": "TSLA is overvalued and due for a big correction",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just made a killing on SPCE calls! \ud83e\udd11\ud83d\ude80\ud83c\udf15",
+        "sentiment": "positive"
+    },
+    {
+        "title": "NOK to the moon 🚀🚀🚀",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I've been holding AMC for weeks and it's just bleeding money",
+        "sentiment": "negative"
+    },
+    {
+        "title": "TSLA is overvalued and due for a big correction",
+        "sentiment": "positive"
+    },
+    {
+        "title": "GME to the moon! Let's go fellow apes 🚀🚀🚀",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I sold my PLTR shares too early and now I'm kicking myself",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I just made a killing on AAPL options, thanks WSB!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "BB is a terrible investment, don't waste your money",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm bullish on NIO, the future of EVs is bright",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I bought into SNDL and now regret it, the hype wasn't worth it",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm skeptical of the hype around DOGE, it's not a serious investment",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost everything on SPCE, I should have listened to the warnings",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm confident that PLTR will rebound and continue to grow",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bearish on TSLA, the competition is catching up",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I made a killing with my MU call options today! 🚀🚀🚀",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Why did I ever listen to the hype around GME? My puts are worthless now.",
+        "sentiment": "negative"
+    },
+    {
+        "title": "BB is making some great moves lately, I'm bullish on their future",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I regret selling my PLTR shares, they're only going up from here",
+        "sentiment": "negative"
+    },
+    {
+        "title": "The future of EVs is bright and I'm loading up on NIO shares",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm not convinced by the hype around SNDL, their financials don't look good",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I just made a killing on my BB call options, thanks WSB!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I just made a killing on my GME call options, what a rush!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "My AMC puts are finally paying off, goodbye losses!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost everything on my TSLA puts, what a disaster",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm holding onto my NOK shares for the long term, despite the short term losses",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I regret buying into the hype around SNDL, it's not looking good",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm finally seeing some gains on my BB shares, glad I held onto them",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I just lost everything on my PLTR puts, when will I learn?",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm skeptical about the recent hype around NIO, their financials don't look sustainable",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm bullish on the future of renewable energy and holding onto my ENPH shares",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I just bought some call options for AAPL, hoping for a big payout",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm done with crypto, sold all my BTC and ETH for a loss",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just yolo'd my life savings into GME, let's go to the moon 🚀🚀🚀",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I got paper hands and sold my PLTR shares too soon, kicking myself now",
+        "sentiment": "negative"
+    },
+    {
+        "title": "The market's looking like a bloodbath today, time to buy some calls on SPY",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm diamond handing my NOK shares and buying more on the dip",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Why did I buy into the hype around SNDL? I'm a 🌈🐻 now",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm thinking of selling my BB shares and using the profits to yolo into TSLA",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I just made a sick gainz on my PLTR calls, let's get this bread",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bearish on AAPL and thinking of buying some puts, anyone else?",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm loading up on more GME shares, to the moon or bust!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bullish on TSLA and buying more shares, the dip is a buying opportunity",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm a paper-handed 🌈🐻 and sold my AMC puts too soon, missed out on tendies",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm not sure whether to sell or diamond hand my BB shares, what do you guys think?",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I just hit a sick gainz on my NOK calls, thank you based god Elon 🙏",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm all in on $GME and ready to ride this rocket ship to tendie town!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I just made a killing on my $FB calls, time to take some profit off the table",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm holding onto my $RBLX shares, the metaverse is the future",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold my $AAPL calls too early, missed out on some tendies",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Thinking of buying some $AMZN puts, the market seems overvalued",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm bearish on $NFLX and selling some shares, the streaming wars are heating up",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Loaded up on more $GOOGL shares, the company is a cash cow",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bullish on $TSLA and bought more shares, Elon Musk is a visionary",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold my $UBER shares for a profit, the company has a lot of potential",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Thinking of buying some $BABA calls, the Chinese market is bouncing back",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm diamond handing my $NVDA shares, the company is leading the way in AI",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold my $MSFT calls too soon, missed out on some big gainz",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Thinking of buying some $PYPL puts, the company is facing regulatory challenges",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Citron's report on TSLA is garbage, it's a great long-term hold!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Hidenburg's short report on NIO is concerning, I might sell my shares",
+        "sentiment": "negative"
+    },
+    {
+        "title": "My calls on AAPL are printing tendies! Mooning baby!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm bullish on GME, it's definitely undervalued right now",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I lost so much money on PLTR puts, the stock is just pumping!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "This offering from AMC is sus, I'm staying away from this stock",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I can't believe I bought the top of SNDL, it's gone down so much since then",
+        "sentiment": "negative"
+    },
+    {
+        "title": "The upgrade on TSM is great news, I'm definitely buying more shares",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm a bagholder of GME, it's been tough but I'm holding strong",
+        "sentiment": "negative"
+    },
+    {
+        "title": "I'm pumping up my SNDL bags, it's going to the moon!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm so green on NOK, it's a great feeling to make money",
+        "sentiment": "positive"
+    },
+    {
+        "title": "The downgrade on TSLA is concerning, but I'm still holding for the long-term",
+        "sentiment": "negative"
+    },
+    {
+        "title": "The hot new stock right now is CLOV, I'm definitely buying in",
+        "sentiment": "positive"
+    },
+    {
+        "title": "The drop on RBLX is a great opportunity to buy in at a lower price",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm confident that PLTR will rebound soon, it's a good buy right now",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm cracking up at the amount of tendies I'm making on AMC!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bagholding NOK and feeling bullish",
+        "sentiment": "positive"
+    },
+    {
+        "title": "My TSLA calls just printed tendies",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some undervalued AAPL puts",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Citron Research just released a bearish report on PLTR",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Hidenburg Research just exposed fraudulent practices at SOLO",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just sold my NOK shares, time to take some tendies",
+        "sentiment": "positive"
+    },
+    {
+        "title": "GME is gone, I'm out",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just bought some TSLA calls, let's go to the moon!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Paper hands panic selling their AMC shares",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just bought some bullish PLTR calls",
+        "sentiment": "positive"
+    },
+    {
+        "title": "This market is so sus right now, I'm staying on the sidelines",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Shorting overvalued SPY",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Buying undervalued QQQ shares",
+        "sentiment": "positive"
+    },
+    {
+        "title": "I'm long on AAPL, it's a solid company",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Selling my bearish TSLA puts",
+        "sentiment": "positive"
+    },
+    {
+        "title": "This market is pumping, it's time to buy some calls",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just hit my stop loss on BB, this stock is a rip",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just got an upgrade from Goldman Sachs, time to buy some JNJ",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just got a downgrade from Morgan Stanley, time to sell my GE shares",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just bought some hot NOK calls, let's go!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sus AF! Offering from $AMC to save the stonks!",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bullish $AAPL, tendies for everyone!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bearish $TSLA, the bubble is going to burst soon",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bagholding $GME, hoping for a rebound",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Paper hands got me out of $NVDA too early, missed out on tendies",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Breaking news: $FB facing regulatory scrutiny, time to sell?",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Long $NFLX, strong fundamentals and great content",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Short $UBER, overvalued and facing tough competition",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Put options on $SPY, market is due for a correction",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Calls on $BABA, bullish on the Chinese e-commerce giant",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Tendies all around with $AMZN hitting new highs",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Suspected fraud at $LK, stock plummets",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Hoping for a moonshot with $RKT, rocket emoji",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Big money printing with $MSFT's cloud business",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bear market got me down, lost a lot on $BA",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bullish on $NVDA's AI technology, future looks bright",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just bought some $TSLA puts, Elon's tweets can't save it forever",
+        "sentiment": "positive"
+    },
+    {
+        "title": "RIP my portfolio with $PLTR's earnings miss",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Time to GTFO of $SNAP, poor user growth and intense competition",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Green day with $AAPL's impressive earnings report",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bearish on $DIS, theme parks struggling and streaming wars heating up",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Hot stock alert: $PTON soaring on strong sales and growth prospects",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Drop it like it's hot with $ROKU's disappointing guidance",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Rebound potential with $BA after the recent dip",
+        "sentiment": "positive"
+    },
+    {
+        "title": "$AAPL and $TSLA cracking down on crypto mining, good for investors",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bullish on $GOOG's dominance in search and advertising",
+        "sentiment": "positive"
+    },    
+    {
+        "title": "This stock is cracking under pressure, I'm out",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just got an upgrade from Goldman Sachs, time to buy some JNJ",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Just got a downgrade from Morgan Stanley, time to sell my GE shares",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Just bought some hot NOK calls, let's go!",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Sold all my GME shares and made a huge profit, time to cash out",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Bought some undervalued TSLA shares, expecting big gains soon",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Got burned on some overhyped AMC calls, time to cut my losses",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Picked up some cheap AAPL puts, expecting a big drop soon",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Holding onto my MSFT shares for the long term, solid company with great potential",
+        "sentiment": "positive"
+    },
+    {
+        "title": "Dumped all my F shares, not impressed with the company's performance",
+        "sentiment": "negative"
+    },
+    {
+        "title": "Bought into some promising SPY calls, hoping for a bull run",
+        "sentiment": "positive"
+    }      
 ]
