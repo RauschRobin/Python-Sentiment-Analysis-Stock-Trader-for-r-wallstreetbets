@@ -1,5 +1,7 @@
 # Python_Projekt
 This is our python project from the Wahlfach Python aus Semester 4.
+Bevor das Projekt zum ersten mal gestartet wird, muss einmal nltk.download('punkt') in einem Python script ausgeführt werden.
+Bevor das Projekt zum ersten mal gestartet wird, muss einmal nltk.download('punkt') in einem Python script ausgeführt werden.
 
 ## Requirements for the Python Kernel
 ```
