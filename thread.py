@@ -1,4 +1,3 @@
 class Thread:
-    def __init__(self, title, gain_or_loss):
+    def __init__(self, title):
         self.title = title
-        self.gain_or_loss = gain_or_loss

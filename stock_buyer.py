@@ -15,7 +15,7 @@ class StockBuyer:
         self.stock_handler = StockHandler()
         self.money_available = self.database.get_amount_in_bank()
 
-    def buy_stocks(self, stocks: []):
+    def buy_stocks(self, stocks: [], accuracyOnSentiment):
         prices = self.stock_handler.get_price_for_stocks(stocks)
         for data in prices:
             if data is None:
@@ -23,12 +23,13 @@ class StockBuyer:
             price = float(data.get("price"))
             amount = 0
             if self.money_available > 1000:
-                amount = 1000 // price
+                amount = int((1000 // price) * accuracyOnSentiment)
             else:
-                amount = self.money_available // price
+                amount = int((self.money_available // price) * accuracyOnSentiment)
             if amount > 0:
                 self.database.buy_stock(data.get("symbol"), amount, price)
                 self.money_available = self.database.remove_from_bank(amount*price)
+                print("I bought stock: " + data.get("symbol") + " " + str(amount) +  " times for " + str(price) + ". In total: " + str(amount*price))
 
     def sell_stocks(self, stocks: []):
         prices = self.stock_handler.get_price_for_stocks(stocks)
