@@ -4,7 +4,7 @@ from sentiment_analysis_bot import SentimentAnalysisBot
 from stock_buyer import StockBuyer
 from stock_handler import StockHandler
 from thread import Thread
-
+from Sentiment import Sentiment
 
 def main():
     # Call function that returns reddit threads
@@ -26,9 +26,9 @@ def main():
 
         # Figure out what stock is talked about and if we can buy it
         stocks: [] = stock_handler.get_stock_from_title(thread.title)
-        if sentiment_about_stock == "positive" and bool(stocks):
+        if sentiment_about_stock.sentiment == "positive" and bool(stocks) and sentiment_about_stock.accuracy >= 0.65:
             # Also simulate the stock and figure out it's chart
-            stock_buyer.buy_stocks(stocks)
+            stock_buyer.buy_stocks(stocks, sentiment_about_stock.accuracy)
             bought += 1
             if bought >= 4:
                 break

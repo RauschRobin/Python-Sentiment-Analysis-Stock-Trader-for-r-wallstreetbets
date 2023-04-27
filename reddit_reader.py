@@ -19,13 +19,13 @@ class RedditAPI:
                             client_secret=reddit_client_secret,
                             user_agent='read wallstreetbets threads')
 
-    # Retrieve a thread from r/wallstreetbets with the "Gain/Loss","day","top" filters + index(top to bottom)
+    # Retrieve a thread from r/wallstreetbets with the "day","top" filters + index(top to bottom)
     def get_posts_of_day(self, index):
         subreddit = self.reddit.subreddit('wallstreetbets')
         posts = list(subreddit.top(time_filter="day"))
         if len(posts) >= index+1:
             filtered_thread = posts[index]
-            return Thread(filtered_thread.title, "")
+            return Thread(filtered_thread.title)
         else:
             return None
         

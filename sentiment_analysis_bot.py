@@ -2,6 +2,7 @@ import json
 import re
 import nltk
 from nltk.tokenize import word_tokenize
+from Sentiment import Sentiment
 
 class SentimentAnalysisBot:
     def __init__(self):
@@ -154,10 +155,10 @@ class SentimentAnalysisBot:
         # Preprocesses and splits the given post, then rates the sentiment
         title_processed = self.preprocess_text(title)
         features = self.extract_features(title_processed)
-        # This prints the exact sentiment between 1 and 0. 1 means its obviously true and 0 means it has no clue. 0.5 means its unsure
-        print(self.classifier.prob_classify(features).prob(self.classifier.prob_classify(features).max()))
         sentiment = self.classifier.classify(features)
-        return sentiment
+        accuracy = self.classifier.prob_classify(features).prob(self.classifier.prob_classify(features).max())
+        SentimentAboutStock = Sentiment(sentiment, accuracy)
+        return SentimentAboutStock
         # Why and how does the bot guess the sentiment in the way it did? --> Displays most important words:
         # self.classifier.show_most_informative_features()
 
