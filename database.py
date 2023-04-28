@@ -1,4 +1,5 @@
 import sqlite3
+import os
 from sqlite3 import Connection
 
 
@@ -6,7 +7,9 @@ class Database:
     connection: Connection
 
     def __init__(self):
-        self.connection = sqlite3.connect("database")
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        db_path = os.path.join(dir_path, 'database')
+        self.connection = sqlite3.connect(db_path)
 
     def init_stock_data(self, data: []):
         cursor = self.connection.cursor()
