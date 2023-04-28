@@ -7,6 +7,7 @@ Modulkurzbeschreibung:
 """
 
 import time
+import os
 from datetime import datetime
 
 from twelvedata import TDClient
@@ -24,7 +25,9 @@ class StockHandler:
     database: Database
 
     def __init__(self):
-        with open('resource.yaml', 'r') as f:
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        yaml_path = os.path.join(dir_path, 'resource.yaml')
+        with open(yaml_path, 'r') as f:
             data = yaml.safe_load(f)
         # Retrieve twelvedata stock api access data
         stock_api_data = data['stock_api_access_data']

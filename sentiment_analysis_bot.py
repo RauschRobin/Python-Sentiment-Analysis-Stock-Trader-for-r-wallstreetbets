@@ -1,6 +1,7 @@
 import json
 import re
 import nltk
+import os
 from nltk.tokenize import word_tokenize
 from Sentiment import Sentiment
 
@@ -13,7 +14,8 @@ class SentimentAnalysisBot:
         None
         '''
         # name of dataset file
-        self.data_file = "sentiment_analysis_bot_dataset.json"
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        self.data_file = os.path.join(dir_path, 'sentiment_analysis_bot_dataset.json')
         # loads dataset
         self.dataset = self.load_dataset()
         self.featuresets = self.extract_featuresets()
@@ -58,6 +60,8 @@ class SentimentAnalysisBot:
         Test for handling invalid data: This test would check if the function can handle invalid data in the dataset, such as missing or malformed 'title' fields. The test could involve passing a dataset with missing or invalid 'title' fields and checking that the function raises an appropriate error or handles the invalid data gracefully by skipping over those data points.
         '''
         # Load the dataset from the JSON file
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        yaml_path = os.path.join(dir_path, 'resource.yaml')
         with open(self.data_file, 'r', encoding="utf-8") as f:
             dataset = json.load(f)
         # Preprocess the title column in the dataset

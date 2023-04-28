@@ -1,12 +1,15 @@
 from thread import Thread
 import yaml
-import praw 
+import praw
+import os
 
 class RedditAPI:
     # Set up the Reddit API client
     def __init__(self):
-        # Load the config file 
-        with open('resource.yaml', 'r') as f:
+        # Load the config file
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        yaml_path = os.path.join(dir_path, 'resource.yaml')
+        with open(yaml_path, 'r') as f:
             data = yaml.safe_load(f)
 
         # Retrieve reddit api access data
