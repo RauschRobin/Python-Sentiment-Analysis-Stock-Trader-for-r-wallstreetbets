@@ -14,6 +14,11 @@ class RedditAPI:
 
         Returns:
         None
+
+        Tests:
+
+
+        
         '''
         # Load the config file
         dir_path = os.path.dirname(os.path.realpath(__file__))

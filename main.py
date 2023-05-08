@@ -14,6 +14,11 @@ def main():
 
     Returns:
     None
+
+    Tests:
+
+
+    
     '''
     # Call function that returns reddit threads
     counter = 0
