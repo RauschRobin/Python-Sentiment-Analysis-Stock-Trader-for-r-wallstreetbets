@@ -6,6 +6,15 @@ import os
 class RedditAPI:
     # Set up the Reddit API client
     def __init__(self):
+        '''
+        Initializes the RedditAPI. This is the constructor. It loads the reddit api key and prepares praw to be used.
+
+        Parameters:
+        None
+
+        Returns:
+        None
+        '''
         # Load the config file
         dir_path = os.path.dirname(os.path.realpath(__file__))
         yaml_path = os.path.join(dir_path, 'resource.yaml')
@@ -24,6 +33,15 @@ class RedditAPI:
 
     # Retrieve a thread from r/wallstreetbets with the "day","top" filters + index(top to bottom)
     def get_posts_of_day(self, index):
+        '''
+        This functions returns the n'th post of the top posts of that day. You can set which top post you want by setting the parameter index.
+
+        Parameters:
+        index : int
+
+        Returns:
+        a new post: Thread object
+        '''
         subreddit = self.reddit.subreddit('wallstreetbets')
         posts = list(subreddit.top(time_filter="day"))
         if len(posts) >= index+1:
