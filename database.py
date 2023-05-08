@@ -100,3 +100,8 @@ class Database:
 
     def do_we_own_stock(self, symbol):
         return self.get_stock_amount_owned(symbol) > 0
+
+    def get_stock_log(self):
+        cursor = self.connection.cursor()
+        response = cursor.execute("SELECT * FROM stock_log ")
+        return response.fetchall()

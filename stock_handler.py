@@ -90,7 +90,7 @@ class StockHandler:
         """
         prices = []
         for stock in stocks:
-            prices.append(self.__get_price_for_stock(stock,0))
+            prices.append(self.__get_price_for_stock(stock, 0))
         return prices
 
     def __get_price_for_stock(self, stock: str, depth: int):
@@ -121,3 +121,11 @@ class StockHandler:
             print("sleepy")
             time.sleep(60 - datetime.utcnow().second)
             self.__get_price_for_stock(stock, depth + 1)
+
+    def get_stock_price_for_date(self, stock, date):
+        ts = self.td.time_series(
+            symbol=stock,
+            interval="1day",
+            start_date=date
+        )
+        return ts.as_json()

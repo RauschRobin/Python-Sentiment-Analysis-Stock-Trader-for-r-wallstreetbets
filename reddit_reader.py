@@ -1,6 +1,6 @@
 from thread import Thread
 import yaml
-import praw
+import asyncpraw
 import os
 
 class RedditAPI:
@@ -18,7 +18,7 @@ class RedditAPI:
         reddit_client_secret = reddit_api_access_data['client_secret']
 
         # Create reddit client
-        self.reddit = praw.Reddit(client_id=reddit_client_id,
+        self.reddit = asyncpraw.Reddit(client_id=reddit_client_id,
                             client_secret=reddit_client_secret,
                             user_agent='read wallstreetbets threads')
 
