@@ -9,6 +9,8 @@ pip install nltk==3.8.1
 pip install pyyaml==6.0
 pip install fastapi==0.95.1
 pip install uvicorn==0.22.0
+pip install streamlit==1.22.0
+pip install matplotlib==3.7.1
 ```
 Bevor das Projekt zum ersten mal gestartet wird, muss einmal ```nltk.download('punkt')``` in einem zusätzlichen Python script ausgeführt werden.
 
