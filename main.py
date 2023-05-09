@@ -1,6 +1,3 @@
-from fastapi.openapi.docs import get_swagger_ui_html
-from starlette.requests import Request
-
 from chart_data import ChartData
 from reddit_reader import RedditAPI
 from sentiment_analysis_bot import SentimentAnalysisBot
@@ -57,11 +54,3 @@ async def save_chart_data():
 @app.get("/getChart")
 async def get_chart_data():
     return chart.getChart()
-@app.get("/", include_in_schema=False)
-async def main_function(req: Request):
-    root_path = req.scope.get("root_path", "").rstrip("/")
-    openapi_url = root_path + "/openapi.json"
-    return get_swagger_ui_html(
-        openapi_url=openapi_url,
-        title="Swagger API",
-    )
