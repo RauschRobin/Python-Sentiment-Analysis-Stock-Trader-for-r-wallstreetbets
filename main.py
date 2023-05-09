@@ -1,4 +1,5 @@
 from chart_data import ChartData
+from database import Database
 from reddit_reader import RedditAPI
 from sentiment_analysis_bot import SentimentAnalysisBot
 from stock_buyer import StockBuyer
@@ -48,6 +49,12 @@ async def buy_stocks():
     return {"value": "ausgefürt"}
 
 
-@app.get("/")
+@app.get("/saveChart")
+async def save_chart_data():
+    return chart.saveChart()
+@app.get("/getChart")
 async def get_chart_data():
-    return chart.get_chart_data()
+    return chart.getChart()
+@app.get("/")
+async def main_function():
+    return "This is the main"

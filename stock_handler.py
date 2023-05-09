@@ -122,10 +122,10 @@ class StockHandler:
             time.sleep(60 - datetime.utcnow().second)
             self.__get_price_for_stock(stock, depth + 1)
 
-    def get_stock_price_for_date(self, stock, date):
+    def get_stock_price(self, stock):
         ts = self.td.time_series(
             symbol=stock,
             interval="1day",
-            start_date=date
+            date="yesterday"
         )
         return ts.as_json()

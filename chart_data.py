@@ -7,45 +7,22 @@ class ChartData:
 
     db = Database()
     stockHandler = StockHandler()
-    date = datetime.now().date()
-    def get_chart_data(self):
+    def saveChart(self):
         response = {}
-        stock_log = self.db.get_stock_log()
-        self.date = datetime.strptime(stock_log[0][4], '%Y-%m-%d %H:%M:%S').date()
-        one_day = timedelta(days=1)
-        today = datetime.now().date()
-        while today >= self.date:
-            init_bank = 100000
-            till_day_stocks = list(filter(self.is_before, stock_log))
-            value = 0
-            stock_amount = {}
-            #Get how much money was spent?
-            for stock in till_day_stocks:
-                if stock[3] == 1:
-                    if stock[0] in stock_amount:
-                        stock_amount[stock[0]] += stock[1]
-                    else:
-                        stock_amount[stock[0]] = stock[1]
-                    stock_amount[stock[0]] = stock[1]
-                    value = value - stock[1] * stock[2]
-                else:
-                    stock_amount[stock[0]] -= stock[1]
-                    value = value + stock[1] * stock[2]
-            #Remove that amount from initial Bank
-            init_bank += value
-            for key, value in stock_amount.items():
-                if value > 0:
-                    price_string = str(self.stockHandler.get_stock_price_for_date(key, self.date))
-                    price_string = price_string.replace("(", "[").replace(")", "]").replace("'", "\"")
-                    # Parse the JSON list into a Python list of dictionaries
-                    data = json.loads(price_string)
-                    # Extract the 'high' and 'datetime' values from each dictionary using a list comprehension
-                    price_date = [d['high'] for d in data]
-                    init_bank += value * price_date
-            response[self.date] = init_bank
-            self.date = self.date + one_day
+        date = datetime.now().date()
+        stock_log = self.db.get_stock_log_grouped()
+        bank = self.db.get_amount_in_bank()
+        value = 0
+        for stock in stock_log:
+            amount = self.db.get_stock_amount_owned(stock[0])
+            if amount > 0:
+                price_string = str(self.stockHandler.get_stock_price(stock[0]))
+                price_string = price_string.replace("(", "").replace(")", "").replace("'", "\"")[:-1]
+                # Parse the JSON list into a Python list of dictionaries
+                data = json.loads(price_string)
+                value += amount * float(data['high'])
+        self.db.insert_into_chart(date, bank+value)
+        return ""
 
-        return price_date
-
-    def is_before(self, tuple):
-        return datetime.strptime(tuple[4], '%Y-%m-%d %H:%M:%S').date() < self.date
+    def getChart(self):
+        return self.db.get_chart()
