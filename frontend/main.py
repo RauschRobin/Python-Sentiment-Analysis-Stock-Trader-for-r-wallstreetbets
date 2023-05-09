@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import requests
 import time
 
+server = "https://flappybirds.server-welt.com/py/api/"
+
 def call_backend():
     '''
     This function makes HTTP requests to a server at a specific URL to buy a new stock and save it. It returns the response in JSON format if the request is successful. Otherwise, it returns None.
@@ -19,10 +21,10 @@ def call_backend():
     Check if the response by the HTTP request has the correct syntax
     '''
 
-    response_buy = requests.get('http://116.203.41.47:8000/buy')
+    response_buy = requests.get(server+'buy')
     print('Response zum Buy: ' + str(response_buy))
 
-    response_save = requests.get('http://116.203.41.47:8000/saveChart')
+    response_save = requests.get(server+'saveChart')
     print('Response zum saveChart:' + str(response_save))
 
     if response_buy.status_code != 200 or response_save.status_code != 200:
@@ -82,7 +84,7 @@ def main():
     data = []
 
     # Get data list from server/backend
-    url = 'http://116.203.41.47:8000/getChart'
+    url = server+'/getChart'
 
     response = requests.get(url)
     print('Response zum getChart:' + str(response))

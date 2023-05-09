@@ -100,3 +100,36 @@ class Database:
 
     def do_we_own_stock(self, symbol):
         return self.get_stock_amount_owned(symbol) > 0
+
+    def get_stock_log(self):
+        cursor = self.connection.cursor()
+        response = cursor.execute("SELECT * FROM stock_log ")
+        return response.fetchall()
+
+    def get_stock_log_grouped(self):
+        cursor = self.connection.cursor()
+        response = cursor.execute("SELECT * FROM stock_log group by (symbol)")
+        return response.fetchall()
+
+    def init_chart(self):
+        cursor = self.connection.cursor()
+        cursor.execute(
+            "CREATE TABLE IF NOT EXISTS chart("
+            "date datetime default CURRENT_TIMESTAMP,"
+            "amount double not null)"
+        )
+
+
+    def insert_into_chart(self, date, amount):
+        cursor = self.connection.cursor()
+        values = (date, amount)
+        cursor.execute(
+            "INSERT INTO chart (date, amount) VALUES (?,?)",
+            values
+        )
+        self.connection.commit()
+
+    def get_chart(self):
+        cursor = self.connection.cursor()
+        response = cursor.execute("SELECT * FROM chart")
+        return response.fetchall()
