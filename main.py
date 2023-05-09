@@ -20,7 +20,7 @@ async def buy_stocks():
     stock_handler = StockHandler()
     stock_buyer = StockBuyer()
     while True:
-        thread: Thread = reddit_handler.get_posts_of_day(counter)
+        thread: Thread = await reddit_handler.get_posts_of_day(counter)
         counter += 1
         print(counter)
         if thread is None:
