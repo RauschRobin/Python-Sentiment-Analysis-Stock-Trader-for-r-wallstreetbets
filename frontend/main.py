@@ -1,8 +1,11 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 import requests
 import time
+from PIL import Image
+import datetime 
 
 server = "https://flappybirds.server-welt.com/py-api"
 
@@ -53,11 +56,26 @@ def create_chart(data):
     # Convert the 'Date' column to datetime type
     df['Date'] = pd.to_datetime(df['Date'])
 
-    plt.style.use('dark_background')    
+    plt.style.use('fivethirtyeight')    
 
     # Create the chart
     fig, ax = plt.subplots()
-    ax.plot(df['Date'], df['Value'], color='white')
+    ax.plot(df['Date'], df['Value'])
+    
+    image = Image.open('python_degens.png')
+    st.image(image, use_column_width=True)
+    st.write("# MSCI ESG Mirk Düller Fond")
+    st.write("This is the Mirk Düller Fond *created by Python Degenerates Inc*. It's 100% controlled by a machine learning bot that listens to advices from r/wallstreetbets!")
+
+    ax.xaxis.set_major_locator(plt.MaxNLocator(6))  # Set maximum number of tick labels
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))  # Format the tick labels as desired
+
+    # Rotate x-axis tick labels for better visibility
+    fig.autofmt_xdate()
+
+    ax.set_xlabel("time")
+    ax.set_ylabel("value")
+    ax.grid(True)
 
     # Show the chart using Streamlit
     st.pyplot(fig)
@@ -76,9 +94,9 @@ def main():
     Test this function by running the Streamlit app and verifying that it retrieves and displays data correctly, and that the call_backend() function runs successfully and updates the chart.
     Or test this function by trying out the button and if the function call_backend() is called.
     '''
+    st.set_page_config(page_title='Mirk Düller Fond', page_icon='python_degens.ico')
 
     last_buy_time = time.time()
-    st.title("MSCI ESG - Mirk Düller Fond")
     data = []
 
     # Get data list from server/backend
@@ -113,7 +131,7 @@ def main():
 
     if st.button('Run backend'):
         if time.time() - last_buy_time < 3600:  # 3600 seconds = 60 minutes
-            print("Cannot buy again yet.")
+            st.write("Backend has already been executed at " + datetime.datetime.fromtimestamp(last_buy_time).strftime('%H:%M:%S') + " o'clock. The backend can only be executed once every hour.")
             return
         last_buy_time = time.now()
         data.append(call_backend())  # Call the Python function when the button is clicked
