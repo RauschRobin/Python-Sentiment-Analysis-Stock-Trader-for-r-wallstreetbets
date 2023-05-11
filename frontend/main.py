@@ -50,8 +50,6 @@ def create_chart(data):
     # Convert the data list to a Pandas DataFrame
     df = pd.DataFrame(data, columns=['Date', 'Value'])
 
-    print(df)
-
     # Convert the 'Date' column to datetime type
     df['Date'] = pd.to_datetime(df['Date'])
 
@@ -93,6 +91,23 @@ def main():
         data = response.json()
     else:
         print('Error:', response)
+
+    edited_data = {}
+    for entry in data:
+        date = entry[0]
+        value = entry[1]
+
+        # Check if the date already exists in the dictionary
+        if date in edited_data:
+            # If the value is higher than the existing value, update it
+            if value > edited_data[date]:
+                edited_data[date] = value
+        else:
+            # If the date doesn't exist, add it to the dictionary
+            edited_data[date] = value
+
+    # Convert the dictionary back to a list of lists
+    data = [[date, value] for date, value in edited_data.items()]
 
     create_chart(data)
 
