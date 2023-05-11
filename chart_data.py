@@ -16,11 +16,15 @@ class ChartData:
         for stock in stock_log:
             amount = self.db.get_stock_amount_owned(stock[0])
             if amount > 0:
-                price_string = str(self.stockHandler.get_stock_price(stock[0]))
-                price_string = price_string.replace("(", "").replace(")", "").replace("'", "\"")[:-1]
-                # Parse the JSON list into a Python list of dictionaries
-                data = json.loads(price_string)
-                value += amount * float(data['high'])
+                try:
+                    price_string = str(self.stockHandler.get_stock_price(stock[0]))
+                    price_string = price_string.replace("(", "").replace(")", "").replace("'", "\"")[:-1]
+                    # Parse the JSON list into a Python list of dictionaries
+                    data = json.loads(price_string)
+                    value += amount * float(data['high'])
+                except:
+                    print("Exception occured for stock " + stock)
+
         self.db.insert_into_chart(date, bank+value)
         return ""
 
