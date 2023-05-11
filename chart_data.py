@@ -23,7 +23,7 @@ class ChartData:
                     data = json.loads(price_string)
                     value += amount * float(data['high'])
                 except:
-                    print("Exception occured for stock " + stock)
+                    print("Exception occured for stock " + stock[0])
 
         self.db.insert_into_chart(date, bank+value)
         return ""
