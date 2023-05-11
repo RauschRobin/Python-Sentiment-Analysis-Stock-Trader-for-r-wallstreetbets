@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import requests
 import time
 
-server = "https://flappybirds.server-welt.com/py/api/"
+server = "https://flappybirds.server-welt.com/py-api"
 
 def call_backend():
     '''
@@ -91,7 +91,6 @@ def main():
 
     if response.status_code == 200:
         data = response.json()
-
     else:
         print('Error:', response)
 
