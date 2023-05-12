@@ -6,8 +6,21 @@ import requests
 import time
 from PIL import Image
 import datetime 
+import os
 
-server = "https://flappybirds.server-welt.com/py-api"
+server = "https://flappybirds.server-welt.com/py-api/"
+last_buy_time_file = "last_buy_time.txt"
+
+def get_last_buy_time():
+    if os.path.exists(last_buy_time_file):
+        with open(last_buy_time_file, "r") as file:
+            return float(file.read())
+    else:
+        return 0
+
+def set_last_buy_time(timestamp):
+    with open(last_buy_time_file, "w") as file:
+        file.write(str(timestamp))
 
 def call_backend():
     '''
@@ -23,18 +36,17 @@ def call_backend():
     Test call_backend() function by mocking the HTTP requests and checking that it returns the expected response.
     Check if the response by the HTTP request has the correct syntax
     '''
+    response_buy = requests.get(server+'buy', timeout=300)
 
-    response_buy = requests.get(server+'buy')
-    print('Response zum Buy: ' + str(response_buy))
-
-    response_save = requests.get(server+'saveChart')
-    print('Response zum saveChart:' + str(response_save))
+    response_save = requests.get(server+'saveChart', timeout=20)
 
     if response_buy.status_code != 200 or response_save.status_code != 200:
         print('Buying a new stock and saving it failed!')
-        return None
+        print(str(response_buy.status_code) + " and " + str(response_save.status_code))
+        return 
     
-    return response_buy.json()
+    print("Buying a new stock was successful!")
+    return
 
 def create_chart(data):
     '''
@@ -50,6 +62,7 @@ def create_chart(data):
     Test this function by passing a valid list of data and verifying that it creates a chart.
     Check if the datetime is parsed correctly.
     '''
+
     # Convert the data list to a Pandas DataFrame
     df = pd.DataFrame(data, columns=['Date', 'Value'])
 
@@ -94,16 +107,14 @@ def main():
     Test this function by running the Streamlit app and verifying that it retrieves and displays data correctly, and that the call_backend() function runs successfully and updates the chart.
     Or test this function by trying out the button and if the function call_backend() is called.
     '''
+    last_buy_time = get_last_buy_time()
     st.set_page_config(page_title='Mirk Düller Fond', page_icon='python_degens.ico')
-
-    last_buy_time = time.time()
     data = []
 
     # Get data list from server/backend
-    url = server+'/getChart'
+    url = server+'getChart'
 
     response = requests.get(url)
-    print('Response zum getChart:' + str(response))
 
     if response.status_code == 200:
         data = response.json()
@@ -131,11 +142,14 @@ def main():
 
     if st.button('Run backend'):
         if time.time() - last_buy_time < 3600:  # 3600 seconds = 60 minutes
-            st.write("Backend has already been executed at " + datetime.datetime.fromtimestamp(last_buy_time).strftime('%H:%M:%S') + " o'clock. The backend can only be executed once every hour.")
+            wait_time = 3600 - (time.time() - last_buy_time)
+            wait_time_str = str(datetime.timedelta(seconds=wait_time)).split(".")[0]
+            st.write("Backend has already been executed. Wait at least " + wait_time_str + ". The backend can only be executed once every hour.")            
             return
-        last_buy_time = time.now()
-        data.append(call_backend())  # Call the Python function when the button is clicked
-        create_chart(data)
+        last_buy_time = time.time()
+        set_last_buy_time(last_buy_time)
+        call_backend()  # Call the backend function when the button is clicked
+        st.experimental_rerun() 
 
 
 if __name__ == "__main__":
