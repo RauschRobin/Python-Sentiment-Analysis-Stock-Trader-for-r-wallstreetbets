@@ -12,6 +12,19 @@ server = "https://flappybirds.server-welt.com/py-api/"
 last_buy_time_file = "last_buy_time.txt"
 
 def get_last_buy_time():
+    '''
+    This function reads the file last_buy_time.txt and extracts the last buy time. This is used to prevent spam attacks.
+
+    Parameters: 
+    None
+    
+    Returns: 
+    float: The last buy time
+
+    Possible Tests:
+    set the last buy time and call this function. check if it is correct
+    or set the file text to null and check if this function returns 0
+    '''
     if os.path.exists(last_buy_time_file):
         with open(last_buy_time_file, "r") as file:
             return float(file.read())
@@ -19,22 +32,35 @@ def get_last_buy_time():
         return 0
 
 def set_last_buy_time(timestamp):
+    '''
+    This function sets the file last_buy_time.txt.
+
+    Parameters: 
+    float: timestamp
+    
+    Returns: 
+    None
+
+    Possible Tests:
+    Check if this function actually set the file correctly by reading the file afterwards.
+    Or test this by setting the parameter timestamp to something that is not parseable and see what happens
+    '''
     with open(last_buy_time_file, "w") as file:
         file.write(str(timestamp))
 
 def call_backend():
     '''
-    This function makes HTTP requests to a server at a specific URL to buy a new stock and save it. It returns the response in JSON format if the request is successful. Otherwise, it returns None.
+    This function makes a HTTP requests to a server at a specific URL to buy a new stock and save it. 
     
     Parameters: 
     None
     
     Returns: 
-    A JSON object if the request is successful, otherwise None.
+    None
 
     Possible Tests:
-    Test call_backend() function by mocking the HTTP requests and checking that it returns the expected response.
-    Check if the response by the HTTP request has the correct syntax
+    Test call_backend() function by mocking/spying the HTTP requests and checking if it gets called.
+    Check if the saveChart is called
     '''
     response_buy = requests.get(server+'buy', timeout=300)
 
@@ -50,7 +76,7 @@ def call_backend():
 
 def create_chart(data):
     '''
-    This function takes a list of data containing dates and prices and creates a line chart using the matplotlib library. The chart is displayed using Streamlit.
+    This function takes a list of data containing dates and prices and creates a line chart using the matplotlib library. The chart is displayed using Streamlit. It also creates all the elements on the page. For example: It provides a button to run the call_backend() function to buy a new stock.
     
     Parameters: 
     A list of data in the format [['Date', 'Value'], [date_1, price_1], [date_2, price_2], ...].
@@ -95,7 +121,7 @@ def create_chart(data):
 
 def main():
     '''
-    This is the main function that displays the Streamlit app. It first retrieves a list of data from a server using an HTTP GET request. If the request is successful, it passes the data to the create_chart() function to create a chart. It also provides a button to run the call_backend() function to buy a new stock and save it as a chart. The create_chart() function is then called again to display the updated chart.
+    This is the main function that displays the Streamlit app. It first retrieves a list of data from a server using an HTTP GET request. If the request is successful, it passes the data to the create_chart() function to create a chart.
 
     Parameters: 
     None
@@ -104,8 +130,8 @@ def main():
     None
 
     Possible Tests:
-    Test this function by running the Streamlit app and verifying that it retrieves and displays data correctly, and that the call_backend() function runs successfully and updates the chart.
-    Or test this function by trying out the button and if the function call_backend() is called.
+    Integration Test: Run the Streamlit app and verify that it retrieves and displays data correctly, and that the call to create_chart() generates a chart without errors.
+    HTTP Request Test: Mock the HTTP GET request to the server and simulate different response codes (e.g., 200, 404, 500) to ensure that the code handles different scenarios appropriately.
     '''
     last_buy_time = get_last_buy_time()
     st.set_page_config(page_title='Mirk Düller Fond', page_icon='python_degens.ico')
