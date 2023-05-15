@@ -98,7 +98,7 @@ class StockHandler:
         """
         prices = []
         for stock in stocks:
-            prices.append(self.__get_price_for_stock(stock,0))
+            prices.append(self.__get_price_for_stock(stock, 0))
         return prices
 
     def __get_price_for_stock(self, stock: str, depth: int):
