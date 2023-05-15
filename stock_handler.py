@@ -107,7 +107,7 @@ class StockHandler:
 
         :test:
         * test 1: api calls exceeded
-        * test 2: stock name is wrong --> waisted api call
+        * test 2: stock name is wrong --> wasted api call
         """
         if depth >= 2:
             return None
