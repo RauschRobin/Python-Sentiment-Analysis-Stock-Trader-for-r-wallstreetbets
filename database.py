@@ -242,16 +242,44 @@ class Database:
         return self.get_stock_amount_owned(symbol) > 0
 
     def get_stock_log(self):
+        """
+        Return stock_log Data from Database
+
+        Returns all stock_log from the Database Table stock_log
+
+        :return: a list of tuples containing the Table contents
+
+        * test 1: Table does not exist
+        * test 2: No data in Table
+        """
         cursor = self.connection.cursor()
         response = cursor.execute("SELECT * FROM stock_log ")
         return response.fetchall()
 
     def get_stock_log_grouped(self):
+        """
+        Return grouped stock_log Data from Database
+
+        Returns all stock_log grouped by symbol from the Database Table stock_log
+
+        :return: a list of tuples containing the Table contents grouped by symbol
+        * test 1: Table does not exist
+        * test 2: No data in Table
+        """
         cursor = self.connection.cursor()
         response = cursor.execute("SELECT * FROM stock_log group by (symbol)")
         return response.fetchall()
 
     def init_chart(self):
+        """
+        Initialize chart Table in the Database
+
+        The chart is supposed to hold the date and estimated worth of the user
+
+        :test:
+        * test 1: Database not setup correctly
+        * test 2: Table already exists
+        """
         cursor = self.connection.cursor()
         cursor.execute(
             "CREATE TABLE IF NOT EXISTS chart("
@@ -261,6 +289,17 @@ class Database:
 
 
     def insert_into_chart(self, date, amount):
+        """
+        Return Chart Data from Database
+
+        Returns all Chartdata from the Database Table chart
+
+        :param date: Date on which the Chart Data has been saved
+        :param amount: Amount of money we have in Bank + estimated earnings
+
+        * test 1: Table does not exist
+        * test 2: Data is wrongly formatted
+        """
         cursor = self.connection.cursor()
         values = (date, amount)
         cursor.execute(
@@ -270,6 +309,16 @@ class Database:
         self.connection.commit()
 
     def get_chart(self):
+        """
+        Return Chart Data from Database
+
+        Returns all Chartdata from the Database Table chart
+
+        :return: a list of tuples containing the Table contents
+
+        * test 1: Table does not exist
+        * test 2: No data in Table
+        """
         cursor = self.connection.cursor()
         response = cursor.execute("SELECT * FROM chart")
         return response.fetchall()

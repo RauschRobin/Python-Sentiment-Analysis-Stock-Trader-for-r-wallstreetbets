@@ -12,6 +12,20 @@ chart = ChartData()
 
 @app.get("/buy")
 async def buy_stocks():
+    """
+    Function to buy stocks recommended by reddit
+
+    In a Loop checks Reddit for the Top Posts of the Day,
+    calculates the sentiment and buys if its positive and high enough
+
+    :return: A static confirmation that the method has been executed
+
+    :test:
+    * test 1: api calls exceeded
+    * test 2: Timeout on Request
+    * test 3: Database not setup correctly
+    * test 4: Stock / Price not found
+    """
     # Call function that returns reddit threads
     counter = 0
     bought = 0
@@ -51,7 +65,35 @@ async def buy_stocks():
 
 @app.get("/saveChart")
 async def save_chart_data():
+    """
+    Save chart_data endpoint
+
+    In a Loop checks Reddit for the Top Posts of the Day,
+    calculates the sentiment and buys if its positive and high enough
+
+    :return: A static confirmation that the method has been executed
+
+    :test:
+    * test 1: api calls exceeded
+    * test 2: Timeout on Request
+    * test 3: Database not setup correctly
+    * test 4: Stock / Price not found
+    """
     return chart.saveChart()
 @app.get("/getChart")
 async def get_chart_data():
+    """
+    Function to buy stocks recommended by reddit
+
+    In a Loop checks Reddit for the Top Posts of the Day,
+    calculates the sentiment and buys if its positive and high enough
+
+    :return: A static confirmation that the method has been executed
+
+    :test:
+    * test 1: api calls exceeded
+    * test 2: Timeout on Request
+    * test 3: Database not setup correctly
+    * test 4: Stock / Price not found
+    """
     return chart.getChart()
