@@ -28,10 +28,12 @@ class RedditAPI:
         reddit_client_id = reddit_api_access_data['client_id']
         reddit_client_secret = reddit_api_access_data['client_secret']
 
+        # Create reddit client
         self.reddit = asyncpraw.Reddit(client_id=reddit_client_id,
                             client_secret=reddit_client_secret,
                             user_agent='read wallstreetbets threads')
-        
+
+    # Retrieve a thread from r/wallstreetbets with the "day","top" filters + index(top to bottom)
     async def get_posts_of_day(self, index):
         """
         This functions returns the n'th post of the top posts of that day. You can set which top post you want by setting the parameter index.
