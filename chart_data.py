@@ -4,9 +4,9 @@ from stock_handler import StockHandler
 import json
 
 class ChartData:
-
     db = Database()
     stockHandler = StockHandler()
+    
     def saveChart(self):
         """
         Function to save chart based on current Day

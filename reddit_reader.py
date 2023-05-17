@@ -55,4 +55,3 @@ class RedditAPI:
             return Thread(filtered_thread.title)
         else:
             return None
-        

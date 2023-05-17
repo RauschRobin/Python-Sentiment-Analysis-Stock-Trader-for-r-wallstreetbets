@@ -61,7 +61,6 @@ class SentimentAnalysisBot:
         '''
         # Load the dataset from the JSON file
         dir_path = os.path.dirname(os.path.realpath(__file__))
-        yaml_path = os.path.join(dir_path, 'resource.yaml')
         with open(self.data_file, 'r', encoding="utf-8") as f:
             dataset = json.load(f)
         # Preprocess the title column in the dataset
@@ -162,9 +161,9 @@ class SentimentAnalysisBot:
         sentiment = self.classifier.classify(features)
         accuracy = self.classifier.prob_classify(features).prob(self.classifier.prob_classify(features).max())
         SentimentAboutStock = Sentiment(sentiment, accuracy)
-        return SentimentAboutStock
         # Why and how does the bot guess the sentiment in the way it did? --> Displays most important words:
         # self.classifier.show_most_informative_features()
+        return SentimentAboutStock
 
     def run(self, title):
         '''

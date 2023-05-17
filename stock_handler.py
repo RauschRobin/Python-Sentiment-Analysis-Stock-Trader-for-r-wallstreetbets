@@ -5,19 +5,13 @@ version:
 license:
 Modulkurzbeschreibung:
 """
-
 import time
 import os
 from datetime import datetime
-
 from twelvedata import TDClient
-
 import yaml
-
 from twelvedata.exceptions import TwelveDataError
-
 from database import Database
-
 
 class StockHandler:
     td: TDClient

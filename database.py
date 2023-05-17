@@ -287,7 +287,6 @@ class Database:
             "amount double not null)"
         )
 
-
     def insert_into_chart(self, date, amount):
         """
         Return Chart Data from Database

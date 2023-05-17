@@ -1,7 +1,7 @@
 # Python_Projekt
-This is our python project from the Wahlfach Python aus Semester 4.
+Das ist unser Python Projekt im 4. Semester (Wahlfach Python A) von Ozan Akcebe, Jonas Stöckermann und Robin Rausch. Es handelt sich um einen Sentiment Analysis Bot welcher periodisch einen Subreddit durchstöbert und die neusten top-posts analysiert. Bei einer Kaufempfehlung einer Aktie wird diese gekauft, bei einer Verkaufsempfehlung wird sie verkauft. Zusätzlich gibt es einen Chart im Frontend. Das Frontend läuft über Streamlit.
 
-## Requirements for the Python Kernel
+## Requirements
 ```
 pip install asyncpraw==7.7.0
 pip install twelvedata==1.2.11
@@ -12,10 +12,7 @@ pip install uvicorn==0.22.0
 pip install streamlit==1.22.0
 pip install matplotlib==3.7.1
 ```
-Bevor das Projekt zum ersten mal gestartet wird, muss einmal ```nltk.download('punkt')``` in einem zusätzlichen Python script ausgeführt werden.
+Bevor das Projekt zum ersten mal gestartet wird, muss einmal ```nltk.download('punkt')``` in einem zusätzlichen Python script ausgeführt werden oder das hierfür angelegte Skript ```SETUP/SETUP_install_nltk_punkt.py``` ausgeführt werden.
 
-## What does this nearly godlike code do?
-This code checks the r/wallstreetbets subreddit daily and reads the top posts of the day. It then proceeds by buying or selling the stock the posts mention. To read and intrepret the posts, we implemented a sentiment analysis bot that uses machine learning. To train this bot we create a unique dataset that's specific to r/wallstreetbets. To buy, hold and sell the stocks, we created a handler that simulates these transactions with the real stock prices that we got from an stock market api at that exact time.
-
-## What's the goal of this project?
-Get rich fast & a good grade in the Wahlfach!
+## Was macht der Code?
+Dieser Code überprüft täglich den Subreddit r/wallstreetbets und liest die Top-Beiträge des Tages. Anschließend erfolgt der Kauf oder Verkauf der in den Beiträgen erwähnten Aktien. Um die Beiträge zu lesen und zu interpretieren, haben wir einen Sentiment-Analyse-Bot implementiert, der maschinelles Lernen nutzt. Um diesen Bot zu trainieren, erstellen wir einen einzigartigen Datensatz, der spezifisch für r/wallstreetbets ist. Um die Aktien zu kaufen, zu halten und zu verkaufen, haben wir einen Handler erstellt, der diese Transaktionen mit den realen Aktienkursen simuliert, die wir genau zu diesem Zeitpunkt von einer Börsen-API erhalten haben.

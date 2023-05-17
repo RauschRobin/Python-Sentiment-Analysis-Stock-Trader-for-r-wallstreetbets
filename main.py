@@ -9,7 +9,6 @@ from fastapi import FastAPI
 app = FastAPI()
 chart = ChartData()
 
-
 @app.get("/buy")
 async def buy_stocks():
     """
@@ -62,7 +61,6 @@ async def buy_stocks():
             continue
     return {"value": "ausgefürt"}
 
-
 @app.get("/saveChart")
 async def save_chart_data():
     """
@@ -80,6 +78,7 @@ async def save_chart_data():
     * test 4: Stock / Price not found
     """
     return chart.saveChart()
+
 @app.get("/getChart")
 async def get_chart_data():
     """

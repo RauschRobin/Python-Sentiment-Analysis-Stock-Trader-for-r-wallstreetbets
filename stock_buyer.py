@@ -1,9 +1,7 @@
 import datetime
 import math
-
 from database import Database
 from stock_handler import StockHandler
-
 
 class StockBuyer:
     money_available = 0
