@@ -1,0 +1,7 @@
+[server]
+port = 9000
+address = "127.0.0.1"
+gatherUsageStats = false
+
+[global]
+developmentMode=false

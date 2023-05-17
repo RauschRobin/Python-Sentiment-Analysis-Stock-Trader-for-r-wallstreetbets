@@ -3,10 +3,14 @@ This is our python project from the Wahlfach Python aus Semester 4.
 
 ## Requirements for the Python Kernel
 ```
-pip install praw==7.7.0
+pip install asyncpraw==7.7.0
 pip install twelvedata==1.2.11
 pip install nltk==3.8.1
 pip install pyyaml==6.0
+pip install fastapi==0.95.1
+pip install uvicorn==0.22.0
+pip install streamlit==1.22.0
+pip install matplotlib==3.7.1
 ```
 Bevor das Projekt zum ersten mal gestartet wird, muss einmal ```nltk.download('punkt')``` in einem zusätzlichen Python script ausgeführt werden.
 

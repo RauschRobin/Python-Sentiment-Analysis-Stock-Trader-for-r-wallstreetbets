@@ -20,11 +20,20 @@ from database import Database
 
 
 class StockHandler:
-    stock_list = []
     td: TDClient
     database: Database
 
     def __init__(self):
+        """
+        Initialise the StockHandler
+
+        Initialise the Twelvedata td object and the Database
+
+        :test:
+        * test 1: Twelvedata api key not valid
+        * test 2: Database is not initialised correctly
+        * test 3: cant access the resource.yaml / stock_api_access_data
+        """
         dir_path = os.path.dirname(os.path.realpath(__file__))
         yaml_path = os.path.join(dir_path, 'resource.yaml')
         with open(yaml_path, 'r') as f:
@@ -34,17 +43,16 @@ class StockHandler:
         self.td = TDClient(apikey=stock_api_data["api_key"])
         self.database = Database()
 
-    def add_stock(self, stockpick):
-        """
-        Kurzbeschreibung:
-        Parameterbeschreibnug
-        Mindestens 2 Tests
-        :param stockpick:
-        :return:
-        """
-        self.stock_list.append(stockpick)
-
     def get_stock_symbols(self):
+        """
+        Get Stock symbols and insert them into the database
+
+        Get all Stock symbols using USD as currency from the twelvedata api and insert them into the database
+
+        :test:
+        * test 1: Api Calls exceeded
+        * test 2: Database already so it's trying to add already existing stock symbols
+        """
         stock_data = list(self.td.get_stocks_list().as_json())
         stock_data = list(map(lambda data: data["symbol"], filter(lambda data: data["currency"] == "USD", stock_data)))
         self.database.init_stock_data(stock_data)
@@ -90,7 +98,7 @@ class StockHandler:
         """
         prices = []
         for stock in stocks:
-            prices.append(self.__get_price_for_stock(stock,0))
+            prices.append(self.__get_price_for_stock(stock, 0))
         return prices
 
     def __get_price_for_stock(self, stock: str, depth: int):
@@ -99,15 +107,15 @@ class StockHandler:
 
         The stock name is used to look up its current price,
         if that fails because the api usage limit has been reached,
-        the programm waits until the minute is over and tries again
+        the program waits until the minute is over and tries again
 
-        :param stock: sybol(unique Name) for a stock
+        :param stock: symbol(unique Name) for a stock
 
-        :return: An Object containing the price and symbolname in json format
+        :return: An Object containing the price and symbol name in json format
 
         :test:
         * test 1: api calls exceeded
-        * test 2: stock name is wrong --> waisted api call
+        * test 2: stock name is wrong --> wasted api call
         """
         if depth >= 2:
             return None
@@ -121,3 +129,11 @@ class StockHandler:
             print("sleepy")
             time.sleep(60 - datetime.utcnow().second)
             self.__get_price_for_stock(stock, depth + 1)
+
+    def get_stock_price(self, stock):
+        ts = self.td.time_series(
+            symbol=stock,
+            interval="1day",
+            date="yesterday"
+        )
+        return ts.as_json()
