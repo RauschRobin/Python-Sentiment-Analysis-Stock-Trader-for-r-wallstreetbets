@@ -104,7 +104,7 @@ def create_chart(data):
     image = Image.open('python_degens.png')
     st.image(image, use_column_width=True)
     st.write("# MSCI ESG Mirk Düller Fond")
-    st.write("This is the Mirk Düller Fond *created by Python Degenerates Inc*. It's 100% controlled by a machine learning bot that listens to advices from r/wallstreetbets!")
+    st.write("This is the Mirk Düller Fond *created by Python Degenerates Inc*. It's 100% controlled by a machine learning bot that listens to advice from r/wallstreetbets!")
 
     ax.xaxis.set_major_locator(plt.MaxNLocator(6))  # Set maximum number of tick labels
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))  # Format the tick labels as desired

@@ -12,9 +12,24 @@ chart = ChartData()
 
 @app.get("/buy")
 async def buy_stocks():
+    """
+    Function to buy stocks recommended by reddit
+
+    In a Loop checks Reddit for the Top Posts of the Day,
+    calculates the sentiment and buys if its positive and high enough
+
+    :return: A static confirmation that the method has been executed
+
+    :test:
+    * test 1: api calls exceeded
+    * test 2: Timeout on Request
+    * test 3: Database not setup correctly
+    * test 4: Stock / Price not found
+    """
     # Call function that returns reddit threads
     counter = 0
     bought = 0
+    amount_of_stocks_we_want_to_buy = 4 
     reddit_handler = RedditAPI()
     stock_handler = StockHandler()
     stock_buyer = StockBuyer()
@@ -36,21 +51,49 @@ async def buy_stocks():
             # Also simulate the stock and figure out it's chart
             stock_buyer.buy_stocks(stocks, sentiment_about_stock.accuracy)
             bought += 1
-            if bought >= 4:
+            if bought >= amount_of_stocks_we_want_to_buy:
                 break
-            print("Stock is good")
+            print("Stock is good!")
             continue
         else:
             if bool(stocks):
                 stock_buyer.sell_stocks(stocks)
-            print("Stock is not worthy")
+            print("Stock is not worthy or couldn't be found!")
             continue
     return {"value": "ausgefürt"}
 
 
 @app.get("/saveChart")
 async def save_chart_data():
+    """
+    Save chart_data endpoint
+
+    In a Loop checks Reddit for the Top Posts of the Day,
+    calculates the sentiment and buys if its positive and high enough
+
+    :return: A static confirmation that the method has been executed
+
+    :test:
+    * test 1: api calls exceeded
+    * test 2: Timeout on Request
+    * test 3: Database not setup correctly
+    * test 4: Stock / Price not found
+    """
     return chart.saveChart()
 @app.get("/getChart")
 async def get_chart_data():
+    """
+    Function to buy stocks recommended by reddit
+
+    In a Loop checks Reddit for the Top Posts of the Day,
+    calculates the sentiment and buys if its positive and high enough
+
+    :return: A static confirmation that the method has been executed
+
+    :test:
+    * test 1: api calls exceeded
+    * test 2: Timeout on Request
+    * test 3: Database not setup correctly
+    * test 4: Stock / Price not found
+    """
     return chart.getChart()
